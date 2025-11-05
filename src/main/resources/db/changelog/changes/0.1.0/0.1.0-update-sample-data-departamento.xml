@@ -1,0 +1,3724 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.02.00-departamento">
+
+    <insert tableName="departamento">
+      <column name="id" value="U006" />
+      <column name="nombre" value="* ADMIN.M. EDUCACION Y CIENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="U011" />
+      <column name="nombre" value="** FAC.QUIMICAS Y MATEMATICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="U430" />
+      <column name="nombre" value="** SECCION DE PERSONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B5" />
+      <column name="nombre" value="ACTIVIDAD FÍSICA Y DEPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E541" />
+      <column name="nombre" value="ACUARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55H" />
+      <column name="nombre" value="ACUARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E620" />
+      <column name="nombre" value="ADMINISTRACIÓN DE ACTIVIDADES DEPORTIVAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CARM" />
+      <column name="nombre" value="ADMINISTRACIÓN DE LA COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E001" />
+      <column name="nombre" value="ANALISIS SOCIOECONOMIA APLICADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A3" />
+      <column name="nombre" value="ANATOMÍA HUMANA Y PSICOBIOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E002" />
+      <column name="nombre" value="ANATOMÍA Y ANATOMÍA PATOLÓGICA COMPARADAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E447" />
+      <column name="nombre" value="APOYO CURSOS/PROYECTOS I." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E486" />
+      <column name="nombre" value="APOYO VIC. ESTUDIANTES Y PARTICIPACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80E" />
+      <column name="nombre" value="ÁREA CALIDAD E INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70A" />
+      <column name="nombre" value="ÁREA CIENTÍFICA y TÉCNICA DE INVESTIGACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E501" />
+      <column name="nombre" value="ÁREA DE BIBLIOTECA UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E805" />
+      <column name="nombre" value="ÁREA DE CALIDAD Y CONVERGENCIA EURPEA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E454" />
+      <column name="nombre" value="AREA DE CONTRATACION, PATRIMONIO Y SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E439" />
+      <column name="nombre" value="AREA DE CONTRATACION PATRIMONIO Y SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E410" />
+      <column name="nombre" value="ÁREA DE CONTROL INTERNO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E841" />
+      <column name="nombre" value="AREA DE GEST.ECONOMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E46A" />
+      <column name="nombre" value="ÁREA DE GESTIÓN ACADÉMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E819" />
+      <column name="nombre" value="AREA DE GESTION ECONOM." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E440" />
+      <column name="nombre" value="ÁREA DE GESTION ECONÓMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E40A" />
+      <column name="nombre" value="ÁREA DE INSPECCIÓN DE SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E91A" />
+      <column name="nombre" value="ÁREA DE INVESTIGACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E900" />
+      <column name="nombre" value="ÁREA DE INVESTIGACIÓN Y TRANSFERENCIA TECNOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E429" />
+      <column name="nombre" value="ÁREA DE RECURSOS HUMANOS Y SERVICIOS GENERALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E420" />
+      <column name="nombre" value="ÁREA DE RÉGIMEN JURÍDICO-ADMINISTRATIVO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E497" />
+      <column name="nombre" value="ÁREA DE RELACIONES INTERNACIONALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E850" />
+      <column name="nombre" value="ÁREA DE TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIONES APLICADAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90N" />
+      <column name="nombre" value="ÁREA DE TRANSFERENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65A" />
+      <column name="nombre" value="ÁREA DE UNIDAD TÉCNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80F" />
+      <column name="nombre" value="ÁREA PARA LA CALIDAD E INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80A" />
+      <column name="nombre" value="ÁREA PARA LA CALIDAD Y LA CONVERGENCIA EUROPEA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E559" />
+      <column name="nombre" value="ASUNTOS SOCIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0D0" />
+      <column name="nombre" value="ATENCIÓN SOCIOSANITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E752" />
+      <column name="nombre" value="AULA INFORMATICA C.CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55T" />
+      <column name="nombre" value="AULA SENIOR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E068" />
+      <column name="nombre" value="AUTOMATICA, ELECTRICIDAD Y ELECTRONICA INDUSTRIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E086" />
+      <column name="nombre" value="AUTOMATICA Y ELECTRONICA INDUSTRIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E090" />
+      <column name="nombre" value="AUTOMATICA Y TECNOLOGIA ELECTRONICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A6" />
+      <column name="nombre" value="BELLAS ARTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI26" />
+      <column name="nombre" value="BIBLIOTECA (BIBLIOTEC.)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI01" />
+      <column name="nombre" value="BIBLIOTECA (BIOLOGIA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E530" />
+      <column name="nombre" value="BIBLIOTECA CAMPUS DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E520" />
+      <column name="nombre" value="BIBLIOTECA CAMPUS DE ESPINARDO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E510" />
+      <column name="nombre" value="BIBLIOTECA CAMPUS DE LA MERCED" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI35" />
+      <column name="nombre" value="BIBLIOTECA DE LA FACULTAD DE DOCUMENTACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E504" />
+      <column name="nombre" value="BIBLIOTECA DE SOFTWARE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI04" />
+      <column name="nombre" value="BIBLIOTECA (DERECHO)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI02" />
+      <column name="nombre" value="BIBLIOTECA (ECONOMICAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI30" />
+      <column name="nombre" value="BIBLIOTECA (EDUCACION)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI19" />
+      <column name="nombre" value="BIBLIOTECA (EMPRES.CART.)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI10" />
+      <column name="nombre" value="BIBLIOTECA (EMPRES.MUR.)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI14" />
+      <column name="nombre" value="BIBLIOTECA ESCUELA UNIVERSITARIA DEL PROFESORADO DE E.G.B." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI22" />
+      <column name="nombre" value="BIBLIOTECA (INFORMATICA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI06" />
+      <column name="nombre" value="BIBLIOTECA (LETRAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI60" />
+      <column name="nombre" value="BIBLIOTECA LUIS VIVES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI28" />
+      <column name="nombre" value="BIBLIOTECA (MATEMATICAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI07" />
+      <column name="nombre" value="BIBLIOTECA (MEDICINA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI29" />
+      <column name="nombre" value="BIBLIOTECA (POLITECNICA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI03" />
+      <column name="nombre" value="BIBLIOTECA (QUIMICA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E808" />
+      <column name="nombre" value="BIBLIOTECA UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI08" />
+      <column name="nombre" value="BIBLIOTECA (VETERINARIA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E003" />
+      <column name="nombre" value="BIOLOGIA ANIMAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E004" />
+      <column name="nombre" value="BIOLOGÍA CELULAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A8" />
+      <column name="nombre" value="BIOLOGÍA CELULAR E HISTOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E005" />
+      <column name="nombre" value="BIOLOGÍA VEGETAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E006" />
+      <column name="nombre" value="BIOQUÍMICA Y BIOLOGÍA MOLECULAR A" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E060" />
+      <column name="nombre" value="BIOQUÍMICA Y BIOLOGÍA MOLECULAR 'B' E INMUNOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E56C" />
+      <column name="nombre" value="CANAL TV UM" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E976" />
+      <column name="nombre" value="CÁTEDRA ARTURO PÉREZ REVERTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E972" />
+      <column name="nombre"
+        value="CÁTEDRA ASTRADE DE AUTISMO Y TRASTORNOS GENERALIZADOS DEL DESARROLLO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E963" />
+      <column name="nombre" value="CATEDRA BANCAJA 'JOVENES EMPRENDEDORES'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E964" />
+      <column name="nombre" value="CÁTEDRA BIOFERMA MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E960" />
+      <column name="nombre" value="CÁTEDRA CABRERA INFANTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E969" />
+      <column name="nombre" value="CÁTEDRA CRISTOBAL GABARRÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E961" />
+      <column name="nombre" value="CÁTEDRA DE ECONOMÍA SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E967" />
+      <column name="nombre" value="CÁTEDRA DE EMPRESA CAJAMURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E950" />
+      <column name="nombre" value="CÁTEDRA DE EMPRESA FAMILIAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E952" />
+      <column name="nombre"
+        value="CÁTEDRA DE EMPRESA FAMILIAR MARE NOSTRUM U. MURCIA-U. POLITECNICA DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E954" />
+      <column name="nombre" value="CÁTEDRA DE HACIENDA TERRITORIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E968" />
+      <column name="nombre" value="CÁTEDRA DE HISTORIA NAVAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E974" />
+      <column name="nombre" value="CÁTEDRA DE INNOVACCIÓN EN ADICCIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E973" />
+      <column name="nombre"
+        value="CÁTEDRA DE MEDIO AMBIENTE INTERUNIVERSITARIA AUTO. PORTUARIA CARTAGENA. CAMPUS MARE NOSTRUM" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E959" />
+      <column name="nombre" value="CÁTEDRA DE REPRODUCCIÓN ASISTIDA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E951" />
+      <column name="nombre" value="CÁTEDRA DE RESPONSABILIDAD SOCIAL CORPORATIVA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E971" />
+      <column name="nombre" value="CÁTEDRA DEL AGUA Y LA SOSTENIBILIDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E965" />
+      <column name="nombre" value="CÁTEDRA DEL AGUA Y MEDIOAMBIENTE CAJAMURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E978" />
+      <column name="nombre"
+        value="CÁTEDRA FUNDACIÓN ASISA DE COMUNICACIÓN SANITARIA DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E975" />
+      <column name="nombre" value="CÁTEDRA INTERNACIONAL DE INNOVACIÓN ECUESTRE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E966" />
+      <column name="nombre" value="CÁTEDRA MAPFRE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E977" />
+      <column name="nombre" value="CÁTEDRA PONCEMAR DE GERONTOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E962" />
+      <column name="nombre"
+        value="CÁTEDRA SAES DE SOFTWARE LIBRE Y DE APLICACIONES CRÍTICAS Y EN TIEMPO REAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E957" />
+      <column name="nombre" value="CÁTEDRA TAHE DE CIENCIA APLICADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E958" />
+      <column name="nombre"
+        value="CÁTEDRA UM-SEMG-HEEL DE MEDICINA DE FAMILIA Y ACTITUDES SALUDABLES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU09" />
+      <column name="nombre" value="CENTRO CIRUGIA EXPERIM." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E584" />
+      <column name="nombre" value="CENTRO DE ATENCIÓN AL USUARIO (CAU)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU46" />
+      <column name="nombre" value="CENTRO DE ESTUDIO DE TERAPIAS CREATIVAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU47" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS CRIMINOLÓGICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU40" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS DE ARQUEOLOGÍA VIRTUAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU36" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS DE BIODERECHO, ÉTICA Y SALUD (CEBES)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU29" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS DE COOPERACIÓN AL DESARROLLO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU45" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS DE EDUCACIÓN MÉDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU52" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS DE GÉNERO Y DE LAS MUJERES (CEMUGE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU41" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS DEL PRÓXIMO ORIENTE Y LA ANTIGÜEDAD TARDÍA " />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU28" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS ECONÓMICOS Y EMPRESARIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU43" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS EUROPEOS DE LA UNIVERSIDAD DE MURCIA (CEEUM)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU31" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS INTERCULTURALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU33" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS MEDIEVALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU34" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS MURCIANOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU50" />
+      <column name="nombre"
+        value="CENTRO DE ESTUDIOS PARA EL DESARROLLO DE LA SUPERDOTACIÓN EL TALENTO Y LA EXCELENCIA (CEDETE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU44" />
+      <column name="nombre"
+        value="CENTRO DE ESTUDIOS SOBRE DISCAPACIDAD Y PROMOCIÓN DE LA AUTONOMÍA PERSONAL (DIPAP)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU42" />
+      <column name="nombre"
+        value="CENTRO DE ESTUDIOS SOBRE LA MEMORIA EDUCATIVA DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU49" />
+      <column name="nombre" value="CENTRO DE ESTUDIOS VISUALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="UA01" />
+      <column name="nombre" value="CENTRO DE LOGOPEDIA APLICADA (CELA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X802" />
+      <column name="nombre" value="CENTRO DE TRANSFERENCIA TECNOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E503" />
+      <column name="nombre" value="CENTRO DOCUMENTACIÓN EUROPEA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X801" />
+      <column name="nombre" value="CENTRO INTEGRADO DE INVESTIGACIÓN BIOMEDICA (CEIB)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E554" />
+      <column name="nombre" value="CENTRO ORIENT.Y EST.(COE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E551" />
+      <column name="nombre" value="CENTRO RECURSOS AUDIOVISUALES (CRAV)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE00" />
+      <column name="nombre" value="CENTROS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C7" />
+      <column name="nombre" value="CIENCIA POLÍTICA, ANTROPOLOGÍA SOCIAL Y HAC. PÚBLICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E007" />
+      <column name="nombre" value="CIENCIAS MORFOLOGICAS Y PSICOBIOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E008" />
+      <column name="nombre" value="CIENCIAS SOCIO-SANITARIAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E009" />
+      <column name="nombre" value="CIRUGÍA, PEDIATRÍA, OBSTETRICIA Y GINECOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU18" />
+      <column name="nombre" value="CLINICA ODONTOLOGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X702" />
+      <column name="nombre" value="CLINICA UNIVERSITARIA DE VISIÓN INTEGRAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E628" />
+      <column name="nombre" value="COLEGIO MAYOR AZARBE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E627" />
+      <column name="nombre" value="COLEGIO MAYOR R.MENDEZ" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E629" />
+      <column name="nombre" value="COLEGIOS MAYORES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E093" />
+      <column name="nombre" value="COMERCIALIZACIÓN E INVESTIGACIÓN DE MERCADOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C9" />
+      <column name="nombre" value="COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E100" />
+      <column name="nombre" value="CONCESIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E299" />
+      <column name="nombre" value="CONSEJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E010" />
+      <column name="nombre" value="CURRICULUM E INVESTIGACION EDUCATIVA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E290" />
+      <column name="nombre" value="DEFENSOR DEL UNIVERSITARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E059" />
+      <column name="nombre" value="DEPARTAMENTO EN CONSTITUCIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E076" />
+      <column name="nombre" value="DERECHO ADMINISTRATIVO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E075" />
+      <column name="nombre" value="DERECHO CIVIL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E057" />
+      <column name="nombre" value="DERECHO DEL TRABAJO Y DE LA SEGURIDAD SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E070" />
+      <column name="nombre" value="DERECHO FINANCIERO, INTERNACIONAL Y PROCESAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E011" />
+      <column name="nombre" value="DERECHO PRIVADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E062" />
+      <column name="nombre" value="DERMATOLOGIA, ESTOMATOLOGIA, FISIOTERAPIA Y RADIOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E080" />
+      <column name="nombre" value="DERMATOLOGÍA, ESTOMATOLOGÍA, RADIOLOGÍA Y MEDICINA FÍSICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E014" />
+      <column name="nombre" value="DIDÁCTICA DE LA LENGUA Y LA LITERATURA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C1" />
+      <column name="nombre"
+        value="DIDÁCTICA DE LA LENGUA Y LA LITERATURA (ESPAÑOL, INGLÉS Y FRANCÉS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E013" />
+      <column name="nombre" value="DIDÁCTICA DE LAS CIENCIAS EXPERIMENTALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E012" />
+      <column name="nombre" value="DIDÁCTICA DE LAS CIENCIAS MATEMÁTICAS Y SOCIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E073" />
+      <column name="nombre" value="DIDÁCTICA Y ORGANIZACIÓN ESCOLAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE32" />
+      <column name="nombre" value="DIR. E.T.S. INGENIEROS AGRONOMOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE31" />
+      <column name="nombre" value="DIR. E.T.S. INGENIEROS INDUSTRIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE33" />
+      <column name="nombre" value="DIR. E.U. ING.TEC. MINERA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE34" />
+      <column name="nombre" value="DIR. E.U. ING.TEC.NAVAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E065" />
+      <column name="nombre" value="ECOLOGÍA E HIDROLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E051" />
+      <column name="nombre" value="ECONOMÍA APLICADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E015" />
+      <column name="nombre" value="ECONOMIA DE LA EMPRESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E016" />
+      <column name="nombre" value="ECONOMÍA FINANCIERA Y CONTABILIDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE66" />
+      <column name="nombre" value="EDIF. 'EMPRESARIALES'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE68" />
+      <column name="nombre" value="EDIFICIO 'INDUSTRIALES'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE67" />
+      <column name="nombre" value="EDIFICIO 'MINAS'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE64" />
+      <column name="nombre" value="EDIFICIO 'NEBRIJA'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B9" />
+      <column name="nombre" value="ELECTROMAGNETISMO Y ELECTRÓNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A7" />
+      <column name="nombre" value="EN CONSTITUCIÓN  (CAMPUS DE SAN JAVIER)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E099" />
+      <column name="nombre" value="EN CONSTITUCIÓN (CPA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="B0A1" />
+      <column name="nombre" value="EN CONSTITUCIÓN (TRAD- E INTERP-)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E063" />
+      <column name="nombre" value="ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X804" />
+      <column name="nombre"
+        value="ENTOMOLOGÍA FORENSE DEL SERV. EXTERNO DE CIENCIAS Y TÉCNICAS FORENSES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU13" />
+      <column name="nombre" value="ESC.PROF. PSIQUIATRIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU14" />
+      <column name="nombre" value="ESC.PROF.ESTOMATOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU15" />
+      <column name="nombre" value="ESC.PROF.PEDIATR.Y PUERIC" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU23" />
+      <column name="nombre" value="ESCUELA DE  PRÁCTICA TECNOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E826" />
+      <column name="nombre" value="ESCUELA DE ESTOMATOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU17" />
+      <column name="nombre" value="ESCUELA DE NEGOCIOS DE LA REGION DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU98" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA DE LA EDUCACIÓN FÍSICA Y DEPORTIVA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU24" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA ENFERMERA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU10" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA JURÍDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU12" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA LABORAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU51" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA LOGOPÉDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU99" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA PROFESIONAL DE EDUCACIÓN SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU20" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA PSICOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU21" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICA SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU32" />
+      <column name="nombre" value="ESCUELA DE PRÁCTICAS DE PERIODISMO, PUBLICIDAD Y DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU11" />
+      <column name="nombre" value="ESCUELA DE RELACIONES LABORALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="ED01" />
+      <column name="nombre" value="ESCUELA INTERNACIONAL DE DOCTORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E823" />
+      <column name="nombre" value="ESCUELA PRACTICA JURIDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE90" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA ADSCRITA DE ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE92" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA ADSCRITA DE TURISMO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="ED00" />
+      <column name="nombre" value="ESCUELAS DE DOCTORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E079" />
+      <column name="nombre" value="ESTADÍSTICA E INVESTIGACIÓN OPERATIVA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55V" />
+      <column name="nombre" value="ESTUDIOS PROPIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="U004" />
+      <column name="nombre" value="E.U. DE MAGISTERIO DE ALBACETE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="U003" />
+      <column name="nombre" value="E.U. POLITECNICA DE ALBACETE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E017" />
+      <column name="nombre" value="EXPRESIÓN PLÁSTICA, MUSICAL Y DINÁMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CA05" />
+      <column name="nombre" value="FAC. FILOSOFIA,PSICOLOGIA Y CC. EE." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="U005" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="XC40" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS DEL DEPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E095" />
+      <column name="nombre" value="FARMACOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E018" />
+      <column name="nombre" value="FARMACOLOGIA Y FISIOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E019" />
+      <column name="nombre" value="FILOLOGÍA CLÁSICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E023" />
+      <column name="nombre" value="FILOLOGÍA FRANCESA, ROMÁNICA, ITALIANA Y ÁRABE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E020" />
+      <column name="nombre" value="FILOLOGÍA INGLESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E091" />
+      <column name="nombre" value="FILOSOFÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E021" />
+      <column name="nombre" value="FILOSOFIA Y LOGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E024" />
+      <column name="nombre" value="FÍSICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E085" />
+      <column name="nombre" value="FISICA APLICADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E094" />
+      <column name="nombre" value="FISIOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E081" />
+      <column name="nombre" value="FISIOTERAPIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X102" />
+      <column name="nombre" value="FORMACIÓN E INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU16" />
+      <column name="nombre" value="FUNDACION UNIVERSIDAD-EMPRESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E052" />
+      <column name="nombre" value="FUNDAMENTOS DEL ANÁLISIS ECONÓMICO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E025" />
+      <column name="nombre" value="FUNDAMENTOS DEL ORDEN JURÍDICO Y CONSTITUCIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E320" />
+      <column name="nombre" value="GABINETE DE PRENSA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E330" />
+      <column name="nombre" value="GABINETE DE PROTOCOLO Y COMUNICACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E026" />
+      <column name="nombre" value="GENÉTICA Y MICROBIOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A5" />
+      <column name="nombre" value="GEOGRAFÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E027" />
+      <column name="nombre" value="GEOGRAFÍA FÍSICA, HUMANA Y ANÁLISIS REGIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E400" />
+      <column name="nombre" value="GERENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU25" />
+      <column name="nombre" value="GRANJA DOCENTE VETERINARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E071" />
+      <column name="nombre" value="HACIENDA Y ECONOMÍA DEL SECTOR PÚBLICO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E502" />
+      <column name="nombre" value="HEMEROTECA CIENTIFICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU37" />
+      <column name="nombre" value="HERBARIO DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E028" />
+      <column name="nombre" value="HISTORIA DEL ARTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B2" />
+      <column name="nombre" value="HISTORIA JURÍDICA Y DE CIENCIAS PENALES Y CRIMINOLÓGICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E077" />
+      <column name="nombre" value="HISTORIA JURÍDICA Y DERECHO PENAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E029" />
+      <column name="nombre" value="HISTORIA JURIDICA Y DERECHO PUBLICO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C5" />
+      <column name="nombre"
+        value="HISTORIA MODERNA, CONTEMPORÁNEA, DE AMÉRICA Y DEL PENSAMIENTO Y MOV. SOCIALES Y POLÍTICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E030" />
+      <column name="nombre" value="HISTORIA MODERNA, CONTEMPORÁNEA Y DE AMÉRICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU19" />
+      <column name="nombre" value="HOSPITAL CLINICO VETERINARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E053" />
+      <column name="nombre" value="INFORMACIÓN Y DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E082" />
+      <column name="nombre" value="INFORMÁTICA, INTELIGENCIA ARTIFICIAL Y ELECTRÓNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E083" />
+      <column name="nombre" value="INFORMÁTICA: LENGUAJES Y SISTEMAS INFORMÁTICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E031" />
+      <column name="nombre" value="INFORMATICA Y SISTEMAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E097" />
+      <column name="nombre" value="INFORMÁTICA Y SISTEMAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E032" />
+      <column name="nombre" value="INGENIERIA APLICADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E096" />
+      <column name="nombre" value="INGENIERÍA DE LA INFORMACIÓN Y LAS COMUNICACIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E049" />
+      <column name="nombre" value="INGENIERÍA DE LOS MATERIALES Y FABRICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E087" />
+      <column name="nombre" value="INGENIERIA ELECTRICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E067" />
+      <column name="nombre" value="INGENIERÍA GRÁFICA, CARTOGRÁFICA Y DE PROYECTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E033" />
+      <column name="nombre" value="INGENIERIA MECANICA Y ENERGETICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E089" />
+      <column name="nombre" value="INGENIERÍA MINERA, GEOLÓGICA Y CARTOGRÁFICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E034" />
+      <column name="nombre" value="INGENIERÍA QUÍMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E066" />
+      <column name="nombre" value="INGENIERIA QUIMICA - CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E084" />
+      <column name="nombre" value="INGENIERÍA Y TECNOLOGÍA DE COMPUTADORES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU39" />
+      <column name="nombre"
+        value="INST. UNIV. EN INVEST. EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN ORIENTADAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU05" />
+      <column name="nombre" value="INST.DE BIOQUIMICA CLINIC" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU02" />
+      <column name="nombre" value="INST.DIREC.ADMON.EMPRESAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU03" />
+      <column name="nombre" value="INST.INVEST.Y CONT.TECN." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU01" />
+      <column name="nombre" value="INSTITUTO DE CIENCIAS DE LA EDUCACIÓN (ICE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E200" />
+      <column name="nombre" value="INSTITUTO DEL AGUA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU08" />
+      <column name="nombre" value="INSTITUTO REGIONAL DE ECONOMÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IE01" />
+      <column name="nombre" value="INSTITUTO TEOLÓGICO DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU26" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DE CIENCIAS DEL DEPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU07" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DE DERECHO COMÚN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU35" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DE INVESTIGACIÓN EN ENVEJECIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU38" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DE INVESTIGACIÓN EN ÓPTICA Y NANOFÍSICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU04" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DEL AGUA Y MEDIO AMBIENTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU27" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DEL ENVEJECIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU00" />
+      <column name="nombre" value="INSTITUTOS UNIVERSITARIOS, CENTROS Y ESCUELAS PROFESIONALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU06" />
+      <column name="nombre" value="INST.UNIV.MEDIO AMBIENTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="0E94" />
+      <column name="nombre"
+        value="ISEN Centro Universitario, facultad adscrita a la Universidad de Murcia" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE94" />
+      <column name="nombre" value="ISEN FORMACIÓN UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A9" />
+      <column name="nombre"
+        value="LENGUA ESPAÑOLA, LINGÜISTICA GENERAL Y TRADUCCIÓN E INTERPRETACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E022" />
+      <column name="nombre" value="LENGUA ESPAÑOLA Y LINGÜÍSTICA GENERAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B7" />
+      <column name="nombre" value="LENGUA ESPAÑOLA Y LINGÜÍSTICA GENERAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E061" />
+      <column name="nombre"
+        value="LITERATURA ESPAÑOLA, TEORÍA DE LA LITERATURA y  LITERATURA COMPARADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="EX01" />
+      <column name="nombre" value="MASTER DE SECUNDARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E078" />
+      <column name="nombre" value="MATEMÁTICA APLICADA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E035" />
+      <column name="nombre" value="MATEMATICA APLICADA Y ESTADISTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E036" />
+      <column name="nombre" value="MATEMÁTICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E137" />
+      <column name="nombre" value="MEDICINA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C8" />
+      <column name="nombre" value="MEDICINA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E037" />
+      <column name="nombre" value="MEDICINA INTERNA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A1" />
+      <column name="nombre" value="MEDICINA Y CIRUGÍA ANIMAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E054" />
+      <column name="nombre" value="MÉTODOS CUANTITATIVOS PARA LA ECONOMÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B1" />
+      <column name="nombre" value="MÉTODOS CUANTITATIVOS PARA LA ECONOMÍA Y EMPRESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E074" />
+      <column name="nombre" value="MÉTODOS DE INVESTIGACIÓN Y DIAGNÓSTICO EN EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B3" />
+      <column name="nombre" value="MIXTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E540" />
+      <column name="nombre" value="MUSEO DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE19" />
+      <column name="nombre" value="NEG.Y SERV.(EMPRESARIALES-CARTAGENA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE10" />
+      <column name="nombre" value="NEG.Y SERV.(EMPRESARIALES-MURCIA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E000" />
+      <column name="nombre" value="NUEVAS ACTUACIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="BI61" />
+      <column name="nombre" value="NULO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E955" />
+      <column name="nombre" value="OBSERVATORIO DE LA HACIENDA TERRITORIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E953" />
+      <column name="nombre" value="OBSERVATORIO REGIONAL DE LA DEPENDENCIA (OREDE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80D" />
+      <column name="nombre" value="OFICINA DE CONVERGENCIA EUROPEA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X751" />
+      <column name="nombre" value="OFICINA DE DIRECCIÓN ESTRATÉGICA (ODE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E561" />
+      <column name="nombre"
+        value="OFICINA DE TRANSFERENCIA DE RESULTADOS DE LA INVESTIGACIÓN (OTRI)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU48" />
+      <column name="nombre" value="OFICINA DE UNIVERSIDAD SALUDABLE (REUS-UMU)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X805" />
+      <column name="nombre" value="OFICINA DEL PROYECTO CAMPUS MARE NOSTRUM" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B8" />
+      <column name="nombre"
+        value="OFTALMOLOGÍA, OPTOMETRÍA, OTORRINOLARINGOLOGÍA Y ANATOMÍA PATOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E064" />
+      <column name="nombre" value="OFTALMOLOGÍA, OTORRINOLARINGOLOGÍA Y ANATOMÍA PATOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E092" />
+      <column name="nombre" value="ORGANIZACION DE EMPRESAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A4" />
+      <column name="nombre" value="ORGANIZACIÓN DE EMPRESAS Y FINANZAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="AAPP" />
+      <column name="nombre" value="OTRAS ADMINISTRACIONES PÚBLICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E056" />
+      <column name="nombre" value="OTROS DEPARTAMENTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E040" />
+      <column name="nombre" value="PATOLOGÍA ANIMAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E069" />
+      <column name="nombre" value="PERSONALIDAD, EVALUACIÓN Y TRATAMIENTO PSICOLÓGICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E112" />
+      <column name="nombre" value="PLAN DE ACTUACIÓN DE EMERGENCIAS POR GRIPE A" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X101" />
+      <column name="nombre" value="PLANIFICACIÓN ESTRATÉGICA Y FORMACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E041" />
+      <column name="nombre"
+        value="PREHISTORIA, ARQUEOLOGÍA, HISTORIA ANTIGUA, HISTORIA MEDIEVAL Y CIENCIAS  Y TECN. HISTORIOGRAFICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E058" />
+      <column name="nombre" value="PRODUCCIÓN ANIMAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E336" />
+      <column name="nombre" value="PRUEBAS DE ACCESO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E038" />
+      <column name="nombre" value="PSICOLOGÍA BÁSICA Y METODOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E042" />
+      <column name="nombre" value="PSICOLOGÍA EVOLUTIVA Y DE LA EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E043" />
+      <column name="nombre" value="PSIQUIATRÍA Y PSICOLOGÍA SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E048" />
+      <column name="nombre" value="QUÍMICA AGRÍCOLA, GEOLOGÍA Y EDAFOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E044" />
+      <column name="nombre" value="QUÍMICA ANALÍTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E045" />
+      <column name="nombre" value="QUÍMICA FÍSICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E046" />
+      <column name="nombre" value="QUÍMICA INORGÁNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E047" />
+      <column name="nombre" value="QUÍMICA ORGÁNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E42R" />
+      <column name="nombre" value="REGISTRO DE PERSONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E072" />
+      <column name="nombre" value="RELIGIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55X" />
+      <column name="nombre" value="S. ATENCION A LA DIVERSIDAD Y EL VOLUNTARIADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65R" />
+      <column name="nombre" value="S. CALIDAD AMBIENTAL, SEGURIDAD ALIMENTARIA Y NUTRICIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E558" />
+      <column name="nombre" value="S. DE ACTIVIDADES CULTURALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E621" />
+      <column name="nombre" value="S. DE ACTIVIDADES DEPORTIVAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E705" />
+      <column name="nombre" value="S. DE ANIMALES DE LABORATORIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E902" />
+      <column name="nombre" value="S. DE ASESORAMIENTO Y ORIENTACION PERSONAL (SAOP)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E714" />
+      <column name="nombre" value="S. DE BIOLOGIA MOLECULAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E555" />
+      <column name="nombre" value="S. DE CÁLCULO CIENTÍFICO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E602" />
+      <column name="nombre" value="S. DE CALIDAD Y SEGURIDAD ALIMENTARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E562" />
+      <column name="nombre" value="S. DE COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E703" />
+      <column name="nombre" value="S. DE CULTIVOS CELULARES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E707" />
+      <column name="nombre" value="S. DE DIGITALIZACION DE IMAGENES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E712" />
+      <column name="nombre" value="S. DE EXPERIENCIAS AGRÍCOLAS Y FORESTALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X701" />
+      <column name="nombre" value="S. DE IDIOMAS (SIDI)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E560" />
+      <column name="nombre" value="S. DE INFORMACION INTERNA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E581" />
+      <column name="nombre" value="S. DE INFORMACION UNIVERSITARIO  (CAMPUS DE ESPINARDO)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E580" />
+      <column name="nombre" value="S. DE INFORMACION UNIVERSITARIO (CAMPUS DE LA MERCED)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E553" />
+      <column name="nombre" value="S. DE INFORMACIÓN UNIVERSITARIO (SIU)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E711" />
+      <column name="nombre" value="S. DE INSTALACIONES RADIOACTIVAS Y RESIDUOS TÓXICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E702" />
+      <column name="nombre" value="S. DE INSTRUMENTACIÓN CIENTIFICA (SUIC)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E713" />
+      <column name="nombre" value="S. DE INSTRUMENTACIÓN PSICOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E550" />
+      <column name="nombre" value="S. DE L  CENTRO DE ORIENTACION Y EMPLEO (COIE)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E701" />
+      <column name="nombre" value="S. DE MICROSCOPÍA ELECTRÓNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E622" />
+      <column name="nombre" value="S. DE PREVENCIÓN DE RIESGOS LABORALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E619" />
+      <column name="nombre" value="S. DE PROMOCIÓN  DEPORTIVA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E557" />
+      <column name="nombre" value="S. DE PROMOCIÓN  EDUCATIVA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E716" />
+      <column name="nombre" value="S. DE PSICOLOGÍA APLICADA (SEPA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E708" />
+      <column name="nombre" value="S. DE TALLERES DE APOYO A LA INVESTIGACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E617" />
+      <column name="nombre" value="S. DEL CENTRO DE MEDICINA DEL DEPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E901" />
+      <column name="nombre" value="S. UNIVERSITARIO DE  PROYECCIÓN SOCIAL Y VOLUNTARIADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E150" />
+      <column name="nombre" value="SALA DE DISECCION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A2" />
+      <column name="nombre" value="SANIDAD ANIMAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E45D" />
+      <column name="nombre" value="SEC. DE CONTRATACIÓN DE OBRAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E45C" />
+      <column name="nombre" value="SEC. DE CONTRATACIÓN DE SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43C" />
+      <column name="nombre" value="SEC. DE PERSONAL LABORAL Y DE PERSONAL DE PROYECTOS DE INVEST." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE21" />
+      <column name="nombre" value="SEC. DE SEC. ESC. UNIV. DE TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE25" />
+      <column name="nombre" value="SEC. DE SEC. ESC. UNIVER. DE ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE05" />
+      <column name="nombre" value="SEC. DE SEC. FACULTAD DE  FILOSOFÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE27" />
+      <column name="nombre" value="SEC. DE SEC. FACULTAD DE  PSICOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE38" />
+      <column name="nombre" value="SEC. DE SEC. FACULTAD DE CIENCIAS DEL TRABAJO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE40" />
+      <column name="nombre" value="SEC. DE SEC. Y S. G.  FACULTAD DE CIENCIAS DEL DEPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE35" />
+      <column name="nombre" value="SEC. DE SEC. Y S. G. FACULTAD DE COMUNICACIÓN Y  DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE39" />
+      <column name="nombre" value="SEC. DE SEC. Y S. G. FACULTAD DE COMUNICACION Y DOCUMENTACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE01" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE  BIOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE22" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE  INFORMÁTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE28" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE  MATEMÁTICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE08" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE  VETERINARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE36" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE BELLAS ARTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE04" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE DERECHO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE37" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE ECONOMÍA Y EMPRESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE30" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE06" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE LETRAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE07" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE MEDICINA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE03" />
+      <column name="nombre" value="SEC. DE SEC. Y S.G. FACULTAD DE QUÍMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X100" />
+      <column name="nombre" value="SEC. DEL CENTRO DE FORMACIÓN Y DESARROLLO PROFESIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD46" />
+      <column name="nombre" value="SEC. DIRECCIÓN F. CIENCIAS SOCIOSANITARIAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE44" />
+      <column name="nombre" value="SEC. SEC. FACULTAD DE  ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE43" />
+      <column name="nombre" value="SEC. SEC. FACULTAD DE TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE41" />
+      <column name="nombre" value="SEC. Y SERV. GEN. ESCUELA DE ÓPTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE45" />
+      <column name="nombre" value="SEC. Y SERV. GEN. FAC. ÓPTICA Y OPTOMETRÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E496" />
+      <column name="nombre" value="SECCIÓN  DE RELACIONES INSTITUCIONALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65I" />
+      <column name="nombre" value="SECCIÓN  DE SEGUIMIENTO DE OBRAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55A" />
+      <column name="nombre" value="SECCIÓN ADMINISTRATIVA DEL VICER. DE ESTUDIANTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E817" />
+      <column name="nombre" value="SECCION AS.GRALES.Y ALUM." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E821" />
+      <column name="nombre" value="SECCION BECAS Y AY.ESTUD." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E44E" />
+      <column name="nombre" value="SECCIÓN CAJA PAGADORA CENTRAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E449" />
+      <column name="nombre" value="SECCION CONTABILIDAD (REG. FACTURAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90M" />
+      <column name="nombre" value="SECCION CONTROL DE SUBVENCIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80B" />
+      <column name="nombre" value="SECCIÓN DE ACREDITACIÓN Y CERTIFICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55J" />
+      <column name="nombre" value="SECCIÓN DE ADMINISTRACIÓN DE ACTIVIDADES CULTURALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E426" />
+      <column name="nombre" value="SECCIÓN DE ADMINISTRACIÓN DE LA ASESORÍA JURÍDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65B" />
+      <column name="nombre" value="SECCIÓN DE ADMINISTRACIÓN DE UNIDAD TÉCNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55G" />
+      <column name="nombre" value="SECCION DE ASESORAMIENTO Y ORIENTACIÓN PERSONAL (SAOP)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E463" />
+      <column name="nombre" value="SECCIÓN DE BECAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E44F" />
+      <column name="nombre" value="SECCIÓN DE CAJA PAGADORA DE INVEST. Y PROYECTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65L" />
+      <column name="nombre" value="SECCIÓN DE CAMPUS PERIFÉRICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90G" />
+      <column name="nombre" value="SECCIÓN DE COMERCIALIZACIÓN Y DIFUSIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E58B" />
+      <column name="nombre" value="SECCIÓN DE COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E56B" />
+      <column name="nombre" value="SECCIÓN DE COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E651" />
+      <column name="nombre" value="SECCIÓN DE CONSTRUCCIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E44B" />
+      <column name="nombre" value="SECCIÓN DE CONTABILIDAD Y EXTRAPRESUPUESTARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E45E" />
+      <column name="nombre" value="SECCIÓN DE CONTRATACIÓN DE OBRAS Y CONCESIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E451" />
+      <column name="nombre" value="SECCIÓN DE CONTRATACIÓN Y OBRAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E427" />
+      <column name="nombre" value="SECCIÓN DE CONVENIOS Y DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E467" />
+      <column name="nombre" value="SECCIÓN DE COORDINACIÓN ACADÉMICA Y CENTROS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E464" />
+      <column name="nombre" value="SECCION DE COORDINACION DE CENTROS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E485" />
+      <column name="nombre"
+        value="SECCIÓN DE COORDINACION DE EXTENSIÓN UNIV. Y RELAC.INTERNAC. E INSTITUC." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E471" />
+      <column name="nombre" value="SECCION DE DESARROLLO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65H" />
+      <column name="nombre" value="SECCIÓN DE ELECTRICIDAD-ELECTRÓNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65Ñ" />
+      <column name="nombre" value="SECCIÓN DE ELEMENTOS DE EDIFICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90J" />
+      <column name="nombre" value="SECCIÓN DE EMPRENDIMIENTO DE E.B.T." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65Q" />
+      <column name="nombre" value="SECCIÓN DE EQUIPAMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E46C" />
+      <column name="nombre" value="SECCIÓN DE ESTUDIOS DE GRADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80C" />
+      <column name="nombre" value="SECCIÓN DE EVALUACIÓN DOCENTE Y GARANTÍA DE CALIDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E473" />
+      <column name="nombre" value="SECCION DE EXPLOTACION Y SISTEMAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65M" />
+      <column name="nombre" value="SECCIÓN DE FLUIDOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43E" />
+      <column name="nombre" value="SECCIÓN DE FORMACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55K" />
+      <column name="nombre" value="SECCIÓN DE FORMACIÓN PERMANENTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E442" />
+      <column name="nombre" value="SECCIÓN DE GASTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E907" />
+      <column name="nombre" value="SECCIÓN DE GESTIÓN DE ASUNTOS ECONÓMICOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E905" />
+      <column name="nombre" value="SECCIÓN DE GESTIÓN DE CONTRATOS Y PATENTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55Ñ" />
+      <column name="nombre" value="SECCIÓN DE GESTIÓN DE EMPLEO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E480" />
+      <column name="nombre" value="SECCION DE GESTION DE LA INVESTIGACION." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E906" />
+      <column name="nombre" value="SECCIÓN DE GESTIÓN DE PROYECTOS Y AYUDAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E433" />
+      <column name="nombre" value="SECCIÓN DE GESTIÓN DEL PERSONAL DE ADMINISTRACIÓN Y SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E446" />
+      <column name="nombre" value="SECCION DE GESTION ECONOMICA DE LA INVESTIGACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E443" />
+      <column name="nombre" value="SECCIÓN DE GESTIÓN INGRESOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E444" />
+      <column name="nombre" value="SECCIÓN DE GESTION PRESUPUESTARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E58D" />
+      <column name="nombre" value="SECCIÓN DE INFORMACIÓN UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E652" />
+      <column name="nombre" value="SECCION DE INFRAESTRUCTURAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E80G" />
+      <column name="nombre" value="SECCIÓN DE INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E62A" />
+      <column name="nombre" value="SECCIÓN DE INSTALACIONES DEPORTIVAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E415" />
+      <column name="nombre" value="SECCIÓN DE JUSTIFICACIÓN DE GASTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65G" />
+      <column name="nombre" value="SECCIÓN DE LOGÍSTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E653" />
+      <column name="nombre" value="SECCION DE MANTENIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55M" />
+      <column name="nombre" value="SECCIÓN DE MAYORES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E715" />
+      <column name="nombre" value="SECCIÓN DE METABOLÓMICA Y PROTEÓMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E862" />
+      <column name="nombre" value="SECCIÓN DE METODOLOGÍAS, NORMALIZACIÓN Y CALIDAD DEL SOFTWARE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E49B" />
+      <column name="nombre" value="SECCIÓN DE MOVILIDAD INTERNACIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43A" />
+      <column name="nombre" value="SECCIÓN DE NOMINAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E434" />
+      <column name="nombre" value="SECCION DE NOMINAS Y HABILITACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55O" />
+      <column name="nombre" value="SECCIÓN DE OBSERVATORIO DE EMPLEO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E465" />
+      <column name="nombre" value="SECCIÓN DE OFERTA DE ENSEÑANZAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55L" />
+      <column name="nombre" value="SECCIÓN DE ORIENTACIÓN PROFESIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55P" />
+      <column name="nombre" value="SECCIÓN DE ORIENTACIÓN PROFESIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E453" />
+      <column name="nombre" value="SECCIÓN DE PATRIMONIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E431" />
+      <column name="nombre" value="SECCION DE PERSONAL DOCENTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43H" />
+      <column name="nombre" value="SECCIÓN DE PERSONAL DOCENTE E INVESTIGADOR CONTRATADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43G" />
+      <column name="nombre" value="SECCIÓN DE PERSONAL DOCENTE E INVESTIGADOR FUNCIONARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65P" />
+      <column name="nombre" value="SECCIÓN DE PLANIMETRÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E466" />
+      <column name="nombre" value="SECCIÓN DE POSTGRADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55F" />
+      <column name="nombre" value="SECCIÓN DE PRÁCTICAS EN EMPRESAS E INSTITUCIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E62C" />
+      <column name="nombre" value="SECCIÓN DE PREVENCIÓN DE RIESGOS LABORALES 2" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65C" />
+      <column name="nombre" value="SECCIÓN DE PROCESOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55N" />
+      <column name="nombre" value="SECCIÓN DE PROMOCIÓN CULTURAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90I" />
+      <column name="nombre" value="SECCIÓN DE PROMOCIÓN Y TRANSFERENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90B" />
+      <column name="nombre" value="SECCIÓN DE PROMOCIÓN Y TRANSFERENCIA TECNOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55Y" />
+      <column name="nombre" value="SECCIÓN DE PROSPECCIÓN Y EMPRENDIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E33A" />
+      <column name="nombre" value="SECCIÓN DE PROTOCOLO Y COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E86C" />
+      <column name="nombre" value="SECCIÓN DE PROYECTOS CAMPUS VIRTUAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E86B" />
+      <column name="nombre" value="SECCION DE PROYECTOS DE GESTION ACADÉMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E86A" />
+      <column name="nombre" value="SECCIÓN DE PROYECTOS DE RRHH" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90F" />
+      <column name="nombre" value="SECCIÓN DE PROYECTOS INTERNACIONALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E861" />
+      <column name="nombre" value="SECCIÓN DE PROYECTOS Y APLICACIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E49A" />
+      <column name="nombre" value="SECCIÓN DE PROYECTOS Y DESARROLLO INTERNACIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E601" />
+      <column name="nombre" value="SECCIÓN DE PUBLICACIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E46B" />
+      <column name="nombre" value="SECCIÓN DE RECLAMACIONES Y RECURSOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E300" />
+      <column name="nombre" value="SECCIÓN DE RECTORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90D" />
+      <column name="nombre"
+        value="SECCIÓN DE RECURSOS HUMANOS DE LA INVESTIGACIÓN Y DEL PLAN PROPIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E871" />
+      <column name="nombre" value="SECCIÓN DE REDES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E472" />
+      <column name="nombre" value="SECCION DE REDES Y COMUNICACIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E461" />
+      <column name="nombre" value="SECCIÓN DE REGISTRO E INFORMACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E33B" />
+      <column name="nombre" value="SECCIÓN DE REGISTRO E INFORMACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43B" />
+      <column name="nombre" value="SECCIÓN DE SEGURIDAD SOCIAL Y A. SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E881" />
+      <column name="nombre" value="SECCIÓN DE SEGURIDAD Y SISTEMAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43D" />
+      <column name="nombre" value="SECCIÓN DE SELECCIÓN DEL P.A.S. Y DE PERS. DE PROYECTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E43F" />
+      <column name="nombre" value="SECCIÓN DE SELECCIÓN DEL PERSONAL DOCENTE E INVESTIGADOR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E432" />
+      <column name="nombre" value="SECCION DE SELECCION Y FORMACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E474" />
+      <column name="nombre" value="SECCION DE SOPORTE A USUARIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E891" />
+      <column name="nombre" value="SECCIÓN DE SOPORTE A USUARIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90L" />
+      <column name="nombre" value="SECCION DE SOPORTE INVESTIGACIÓN BIOMÉDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65O" />
+      <column name="nombre" value="SECCIÓN DE SUMINISTRO DE ENERGÍAS Y CONSUMOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E452" />
+      <column name="nombre" value="SECCION DE SUMINISTROS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E872" />
+      <column name="nombre" value="SECCION DE TELEMÁTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E445" />
+      <column name="nombre" value="SECCIÓN DE TESORERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E462" />
+      <column name="nombre" value="SECCIÓN DE TÍTULOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55I" />
+      <column name="nombre" value="SECCIÓN DE UNIMAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65J" />
+      <column name="nombre" value="SECCIÓN DE VÍA PÚBLICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E490" />
+      <column name="nombre" value="SECCION DE.ASUNTOS ASIST.Y CULTURALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E435" />
+      <column name="nombre" value="SECCIÓN SEGUNDA DE GESTION DEL P.A.S." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65N" />
+      <column name="nombre" value="SECCIÓN TERMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E44C" />
+      <column name="nombre" value="SECCIÓN UNIDAD TÉCNICA APOYO ECONÓMICO A PROYECTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E448" />
+      <column name="nombre" value="SEC.CONTABILIDAD (PAGOS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE70" />
+      <column name="nombre" value="SEC.(ESCUELAS TECNICAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD25" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN E.U. ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD21" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN E.U. TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD36" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. BELLAS ARTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD01" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCION F. BIOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD42" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. C. LORCA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD38" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. CIENCIAS DEL TRABAJO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD35" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. COMUNICACIÓN Y DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD39" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. DE COMUNICACIÓN Y DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD45" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. DE ÓPTICA Y OPTOMETRÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD04" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. DERECHO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD37" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. ECONOMÍA Y EMPRESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD30" />
+      <column name="nombre" value="SECRETARIA DE DIRECCIÓN F. EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD05" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. FILOSOFÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD22" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. INFORMÁTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD06" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. LETRAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD28" />
+      <column name="nombre" value="SECRETARIA DE DIRECCIÓN F. MATEMÁTICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD07" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. MEDICINA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD27" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. PSICOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD03" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. QUÍMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD08" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN F. VETERINARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD40" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN FACULTAD CIENCIAS DEL DEPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD44" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN FACULTAD DE ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SD43" />
+      <column name="nombre" value="SECRETARÍA DE DIRECCIÓN FACULTAD DE TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E33G" />
+      <column name="nombre" value="SECRETARÍA DE GERENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E33S" />
+      <column name="nombre" value="SECRETARÍA DE SECRETARÍA  GENERAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE25" />
+      <column name="nombre" value="SECRETARÍA E.U. ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE21" />
+      <column name="nombre" value="SECRETARÍA E.U. TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE36" />
+      <column name="nombre" value="SECRETARÍA F. BELLAS ARTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE01" />
+      <column name="nombre" value="SECRETARÍA F. BIOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE35" />
+      <column name="nombre" value="SECRETARÍA F. CIENCIAS DE LA DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE38" />
+      <column name="nombre" value="SECRETARÍA F. CIENCIAS DEL TRABAJO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE04" />
+      <column name="nombre" value="SECRETARÍA F. DERECHO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE37" />
+      <column name="nombre" value="SECRETARIA F. ECONOMÍA Y EMPRESA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE30" />
+      <column name="nombre" value="SECRETARÍA F. EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE05" />
+      <column name="nombre" value="SECRETARÍA F. FILOSOFÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE22" />
+      <column name="nombre" value="SECRETARÍA F. INFORMÁTICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE06" />
+      <column name="nombre" value="SECRETARÍA F. LETRAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE28" />
+      <column name="nombre" value="SECRETARÍA F. MATEMÁTICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE07" />
+      <column name="nombre" value="SECRETARÍA F. MEDICINA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE27" />
+      <column name="nombre" value="SECRETARÍA F. PSICOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE03" />
+      <column name="nombre" value="SECRETARÍA F. QUÍMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="SE08" />
+      <column name="nombre" value="SECRETARÍA F. VETERINARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E301" />
+      <column name="nombre" value="SECRETARIA GENERAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE42" />
+      <column name="nombre" value="SECRETARÍA Y SERVICIOS GENERALES CENTRO DE LORCA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE26" />
+      <column name="nombre" value="SEC.Y SERV.(BIBLIOTECONOMIA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE02" />
+      <column name="nombre" value="SEC.Y SERV.(ECONOMICAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE29" />
+      <column name="nombre" value="SEC.Y SERV.(POLITECNICA)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE23" />
+      <column name="nombre" value="SEC.Y SERV.(RELACIONES LABORALES)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E489" />
+      <column name="nombre" value="SERV. DE ASUNTOS GENERALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E495" />
+      <column name="nombre" value="SERV. DE RELACIONES INTERNACIONALES E INSTITUCIONALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE77" />
+      <column name="nombre" value="SERV. DEL EDIFICIO  'D'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E624" />
+      <column name="nombre" value="SERV. GEN.  DE TELEFONIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE63" />
+      <column name="nombre" value="SERV. GEN. AULARIO 'LA MERCED'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE65" />
+      <column name="nombre" value="SERV. GEN. AULARIO GENERAL DE ESPINARDO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE61" />
+      <column name="nombre" value="SERV. GEN. AULARIO 'GINER DE LOS RIOS'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE80" />
+      <column name="nombre" value="SERV. GEN. CENTRO SOCIAL UNIVERSITARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E625" />
+      <column name="nombre" value="SERV. GEN. DE CONTROL DE ACCESOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E623" />
+      <column name="nombre" value="SERV. GEN. DE CORREOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E626" />
+      <column name="nombre" value="SERV. GEN. DE LIMPIEZA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE81" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO AULARIO NORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE62" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO 'C'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE83" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO CUARTEL DE ARTILLERIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE69" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO 'D'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE87" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO DEPART. CC.SALUD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE79" />
+      <column name="nombre"
+        value="SERV. GEN. EDIFICIO F. DE CIENCIAS DEL TRABAJO Y E.U. DE TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE88" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO PLEYADES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE84" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO 'R. SOLER'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E401" />
+      <column name="nombre" value="SERV .GEN. EDIFICIO RECTORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE78" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO UNIVERSITARIO RECTOR SABATER" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE76" />
+      <column name="nombre" value="SERV. GEN. EDIFICIO UNIVERSITARIO 'SAAVEDRA FAJARDO'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE47" />
+      <column name="nombre" value="SERV. GEN. ESCUELA INTERNACIONAL DE DOCTORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE89" />
+      <column name="nombre" value="SERV. GEN. LAIB/DEPARTAMENTAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE82" />
+      <column name="nombre" value="SERV. GEN. PABELLON DOCENTE H.U.V.A." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X001" />
+      <column name="nombre" value="SERV. GEN. PARANINFO Y EDIFICIO RECTOR LOUSTAU" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E325" />
+      <column name="nombre" value="SERV. GEN. RECTORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE46" />
+      <column name="nombre" value="SERV. GENERALES FAC. CIENCIAS SOCIOSANITARIAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E751" />
+      <column name="nombre" value="SERV.APOYO INV.TEC(SAIT)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE09" />
+      <column name="nombre" value="SERV.G. E.T.S.INGEN.IND" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE24" />
+      <column name="nombre" value="SERV.G.E.ESTOMATOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE11" />
+      <column name="nombre" value="SERV.G.E.GRAD.SOCIALES-" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE73" />
+      <column name="nombre" value="SERV.GENERALES CAMPUS CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE74" />
+      <column name="nombre" value="SERV.GENERALES CAMPUS ESPINARDO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE75" />
+      <column name="nombre" value="SERV.GENERALES CAMPUS MERCED" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE12" />
+      <column name="nombre" value="SERV.G.E.U.INFORMATICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE13" />
+      <column name="nombre" value="SERV.G.E.U.POLITECNICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE14" />
+      <column name="nombre" value="SERV.G.E.U.PROF.E.G.B." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55C" />
+      <column name="nombre" value="SERVICIO ADJUNTO DE CULTURA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55D" />
+      <column name="nombre" value="SERVICIO ADJUNTO DE PROYECTOS FORMATIVOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65S" />
+      <column name="nombre" value="SERVICIO CALIDAD AMBIENTAL, SEG. ALIM. Y NUTRICIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E618" />
+      <column name="nombre" value="SERVICIO DE ACTIVIDADES DEPORTIVAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65E" />
+      <column name="nombre" value="SERVICIO DE ADAPTACIÓN DE ESPACIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70E" />
+      <column name="nombre" value="SERVICIO DE ANIMALES DE EXPERIMENTACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E700" />
+      <column name="nombre" value="SERVICIO DE APOYO A LA INVESTIGACIÓN (SAI)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E30A" />
+      <column name="nombre" value="SERVICIO DE APOYO AL CONSEJO DE DIRECCIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90E" />
+      <column name="nombre"
+        value="SERVICIO DE ASUNTOS ECONOMICOS Y CONTROL DE SUBVENCIONES DE LA INVESTIGACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70J" />
+      <column name="nombre" value="SERVICIO DE BIOLOGÍA MOLECULAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70I" />
+      <column name="nombre" value="SERVICIO DE BIOTECNOLOGÍA VEGETAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E441" />
+      <column name="nombre" value="SERVICIO DE CICLO PRESUPUESTARIO Y ADMINISTRACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E58A" />
+      <column name="nombre" value="SERVICIO DE COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E56A" />
+      <column name="nombre" value="SERVICIO DE COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E450" />
+      <column name="nombre" value="SERVICIO DE CONTRATACIÓN Y PATRIMONIO." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E45B" />
+      <column name="nombre" value="SERVICIO DE CONTRATACIÓN Y SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E412" />
+      <column name="nombre" value="SERVICIO DE CONTROL FINANCIERO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E42C" />
+      <column name="nombre" value="SERVICIO DE COORDINACIÓN DE RECURSOS HUMANOS Y RETRIBUCIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70D" />
+      <column name="nombre" value="SERVICIO DE CULTIVO DE TEJIDOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55R" />
+      <column name="nombre" value="SERVICIO DE CULTURA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55B" />
+      <column name="nombre" value="SERVICIO DE CULTURA, VOLUNTARIADO Y ESTUDIOS PROPIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E32A" />
+      <column name="nombre" value="SERVICIO DE DATO ÚNICO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E860" />
+      <column name="nombre" value="SERVICIO DE DESARROLLO, APLICACIONES Y METODOLOGIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E44A" />
+      <column name="nombre" value="SERVICIO DE DIRECCIÓN FINANCIERA, FISCAL Y CONTABLE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E347" />
+      <column name="nombre" value="SERVICIO DE DIVULGACIÓN CIENTÍFICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E411" />
+      <column name="nombre" value="SERVICIO DE FISCALIZACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55S" />
+      <column name="nombre" value="SERVICIO DE FORMACIÓN PERMANENTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E460" />
+      <column name="nombre" value="SERVICIO DE GESTION ACADEMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E46D" />
+      <column name="nombre" value="SERVICIO DE GESTIÓN ACADÉMICA 2" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E430" />
+      <column name="nombre" value="SERVICIO DE GESTIÓN DE  RECURSOS HUMANOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E479" />
+      <column name="nombre" value="SERVICIO DE GESTION DE LA INVESTIGACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90C" />
+      <column name="nombre" value="SERVICIO DE GESTIÓN DE LA INVESTIGACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E42A" />
+      <column name="nombre" value="SERVICIO DE GESTIÓN DEL P.D.I." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E42B" />
+      <column name="nombre"
+        value="SERVICIO DE GESTIÓN DEL PERSONAL DE ADM. Y SERV. Y DE PROYECTOS DE INVES." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E46F" />
+      <column name="nombre" value="SERVICIO DE GRADO Y POSTGRADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E58C" />
+      <column name="nombre" value="SERVICIO DE INFORMACIÓN UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E582" />
+      <column name="nombre" value="SERVICIO DE INFORMACION-CAMPUS DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E470" />
+      <column name="nombre" value="SERVICIO DE INFORMATICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E87A" />
+      <column name="nombre" value="SERVICIO DE INFRAESTRUCTURAS TICS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65D" />
+      <column name="nombre" value="SERVICIO DE INFRAESTRUCTURAS Y DESARROLLO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E44D" />
+      <column name="nombre" value="SERVICIO DE INGRESOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E405" />
+      <column name="nombre" value="SERVICIO DE INSPECCION DE SERVICIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70C" />
+      <column name="nombre" value="SERVICIO DE INSTRUMENTACIÓN CIENTÍFICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70K" />
+      <column name="nombre" value="SERVICIO DE INVESTIGACIÓN BIOSANITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65K" />
+      <column name="nombre" value="SERVICIO DE MANTENIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70F" />
+      <column name="nombre" value="SERVICIO DE MICROSCOPÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70G" />
+      <column name="nombre" value="SERVICIO DE MICROSCOPÍA Y ANÁLISIS DE IMÁGENES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E49D" />
+      <column name="nombre" value="SERVICIO DE MOVILIDAD INTERNACIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E46G" />
+      <column name="nombre" value="SERVICIO DE OFERTA, BECAS Y TITULOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55E" />
+      <column name="nombre" value="SERVICIO DE ORIENTACIÓN Y EMPLEO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E45A" />
+      <column name="nombre" value="SERVICIO DE PATRIMONIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E650" />
+      <column name="nombre" value="SERVICIO DE PLANIFICACION, INFRAESTRUCTURAS Y MANTENIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90K" />
+      <column name="nombre" value="SERVICIO DE PROYECTOS INTERNACIONALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E49C" />
+      <column name="nombre" value="SERVICIO DE PROYECTOS Y DESARROLLO INTERNACIONAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E70H" />
+      <column name="nombre" value="SERVICIO DE RADIOPROTECCIÓN E INVESTIGACIÓN RESPONSABLE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E387" />
+      <column name="nombre" value="SERVICIO DE REDES Y COMUNICACIONES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E870" />
+      <column name="nombre" value="SERVICIO DE REDES Y TELEMATICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90H" />
+      <column name="nombre" value="SERVICIO DE TRANSFERENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E90A" />
+      <column name="nombre" value="SERVICIO DE TRANSFERENCIA TECNOLÓGICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55Q" />
+      <column name="nombre" value="SERVICIO DE VOLUNTARIADO Y ESTUDIOS PROPIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E33C" />
+      <column name="nombre" value="SERVICIO erróneo" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E956" />
+      <column name="nombre"
+        value="SERVICIO EXTERNO DE CIENCIAS Y TÉCNICAS FORENSES DE LA UNIVERSIDAD DE MURCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E425" />
+      <column name="nombre" value="SERVICIO JURIDICO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E60A" />
+      <column name="nombre" value="SERVICIOS  VIC. ESTUDIANTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CA00" />
+      <column name="nombre" value="SERVICIOS GENERALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E704" />
+      <column name="nombre" value="SERV.INSTRUM. BIOMEDICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="CE60" />
+      <column name="nombre" value="SERVIOS GENERALES EDIFICIO  'LUIS VIVES'" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E556" />
+      <column name="nombre" value="SERV.UNIV.REL.INTER.(SURI)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C3" />
+      <column name="nombre" value="SOCIOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E055" />
+      <column name="nombre" value="SOCIOLOGIA E HISTORIA DE LAS INSTITUCIONES ECONOMICAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E088" />
+      <column name="nombre" value="SOCIOLOGÍA Y POLÍTICA SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C2" />
+      <column name="nombre" value="SOCIOLOGIA Y TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E710" />
+      <column name="nombre" value="TALL.VIDRIO,ELECTR.Y MEC." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E098" />
+      <column name="nombre" value="TECNOLOGÍA DE LOS ALIMENTOS, NUTRICIÓN Y BROMATOLOGÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E050" />
+      <column name="nombre" value="TEORÍA E HISTORIA DE LA EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E039" />
+      <column name="nombre" value="TEORIA ECONOMICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C4" />
+      <column name="nombre" value="TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0C6" />
+      <column name="nombre" value="TRABAJO SOCIAL Y SERVICIOS SOCIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0B6" />
+      <column name="nombre" value="TRADUCCIÓN E INTERPRETACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E153" />
+      <column name="nombre" value="UNIDAD ADMINISTRATIVA DE APOYO A DEPARTAMENTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E338" />
+      <column name="nombre"
+        value="UNIDAD ADMINISTRATIVA DE LA UNIDAD PARA LA IGUALDAD DE MUJ. y HOMBRES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E311" />
+      <column name="nombre" value="UNIDAD DE  APOYO COORDINADORES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E630" />
+      <column name="nombre" value="UNIDAD DE ALMACEN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E332" />
+      <column name="nombre" value="UNIDAD DE APOYO AL DEFENSOR DEL UNIVERSITARIO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X700" />
+      <column name="nombre" value="UNIDAD DE DEPOSITO RECICLATICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E800" />
+      <column name="nombre" value="UNIDAD DE EVALUACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X750" />
+      <column name="nombre" value="UNIDAD DE INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E810" />
+      <column name="nombre" value="UNIDAD DE INNOVACION Y DESARROLLO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E65F" />
+      <column name="nombre" value="UNIDAD DE PROYECTOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E631" />
+      <column name="nombre" value="UNIDAD DE TRANSPORTE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU30" />
+      <column name="nombre" value="UNIDAD DOCENTE ENFERM. OBSTETRICIA-GINECOLOGIA (MATRONAS)" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E291" />
+      <column name="nombre" value="UNIDAD PARA LA IGUALDAD DE HOMBRES Y MUJERES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E331" />
+      <column name="nombre" value="UNIDAD PARA LA PARTICIPACIÓN ESTUDIANTIL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E600" />
+      <column name="nombre" value="UNIDAD TECNICA CONST.CONS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X906" />
+      <column name="nombre" value="UNIDADES CENTRO ADSCRITO ENAE" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X903" />
+      <column name="nombre" value="UNIDADES CENTRO ADSCRITO ISEN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X901" />
+      <column name="nombre" value="UNIDADES ESCUELA ADSCRITA ENFERMERIA CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X905" />
+      <column name="nombre" value="UNIDADES ESCUELA ADSCRITA ENFERMERIA DE LA CARM" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X904" />
+      <column name="nombre" value="UNIDADES ESCUELA UNIVERSITARIA ADSCRITA DE OSTEOPATÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="X902" />
+      <column name="nombre" value="UNIDADES ESCUELA UNIVERSITARIA ADSCRITA DE TURISMO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="IU22" />
+      <column name="nombre" value="UNIVERSIDAD DEL MAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E55U" />
+      <column name="nombre" value="UNIVERSIDAD INTERNACIONAL DEL MAR" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E307" />
+      <column name="nombre" value="VICERR. CAMPUS CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E306" />
+      <column name="nombre" value="VICERR.ALUMNOS Y SERV. SOCIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E305" />
+      <column name="nombre" value="VICERR.CAMPUS E INFRAESTRUCTURA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E308" />
+      <column name="nombre" value="VICERR.DOCENCIA Y PLAN.ENSEÑANZAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E304" />
+      <column name="nombre" value="VICERR.ECONOM.Y FINANZAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E353" />
+      <column name="nombre" value="VICERRECTORADO DE CALIDAD, CULTURA Y COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E321" />
+      <column name="nombre" value="VICERRECTORADO DE CALIDAD Y CONVERGENCIA EUROPEA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E356" />
+      <column name="nombre" value="VICERRECTORADO DE CIENCIAS DE LA SALUD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E361" />
+      <column name="nombre"
+        value="VICERRECTORADO DE CIENCIAS DE LA SALUD Y SERVICIOS A LA COMUNIDAD UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E340" />
+      <column name="nombre" value="VICERRECTORADO DE COMUNICACIÓN Y CULTURA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E328" />
+      <column name="nombre" value="VICERRECTORADO DE CONVERGENCIA EUROPEA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E341" />
+      <column name="nombre" value="VICERRECTORADO DE COORDINACIÓN E INTERNACIONALIZACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E360" />
+      <column name="nombre" value="VICERRECTORADO DE COORDINACIÓN Y CALIDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E333" />
+      <column name="nombre" value="VICERRECTORADO DE COORDINACIÓN Y COMUNICACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E357" />
+      <column name="nombre" value="VICERRECTORADO DE COORDINACIÓN Y SERVICIOS ASISTENCIALES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E334" />
+      <column name="nombre" value="VICERRECTORADO DE DESARROLLO ESTRATÉGICO Y FORMACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E366" />
+      <column name="nombre" value="VICERRECTORADO DE ECONOMÍA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E327" />
+      <column name="nombre" value="VICERRECTORADO DE ECONOMÍA E INFRAESTRUCTURAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E312" />
+      <column name="nombre" value="VICERRECTORADO DE ECONOMIA Y ADMINISTRACION" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E355" />
+      <column name="nombre" value="VICERRECTORADO DE EMPLEO, EMPRENDIMIENTO Y SOCIEDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E979" />
+      <column name="nombre" value="VICERRECTORADO DE ESTRATEGIA Y UNIVERSIDAD DIGITAL" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E345" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIANTES" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E337" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIANTES, CALIDAD E IGUALDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E362" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIANTES Y EMPLEO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E315" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIANTES Y EMPLEO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E799" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIANTES Y SERVICIOS A LA COMUNIDAD UNI" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E350" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E322" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIOS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E319" />
+      <column name="nombre" value="VICERRECTORADO DE ESTUDIOS Y POSTGRADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E313" />
+      <column name="nombre" value="VICERRECTORADO DE EXTENSION CULTURAL Y PROY. UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E302" />
+      <column name="nombre" value="VICERRECTORADO DE EXTENSIÓN UNIVERSITARIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E367" />
+      <column name="nombre" value="VICERRECTORADO DE FORMACIÓN CONTINUA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E342" />
+      <column name="nombre" value="VICERRECTORADO DE FORMACIÓN E INNOVACCIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E324" />
+      <column name="nombre" value="VICERRECTORADO DE INFORMACIÓN, COMUNICACIÓN E INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E363" />
+      <column name="nombre" value="VICERRECTORADO DE INFRAESTRUCTURAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E343" />
+      <column name="nombre" value="VICERRECTORADO DE INFRAESTRUCTURAS Y SOSTENIBILIDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E318" />
+      <column name="nombre" value="VICERRECTORADO DE INNOVACIÓN Y DESARROLLO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E368" />
+      <column name="nombre" value="VICERRECTORADO DE INTERNACIONALIZACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E352" />
+      <column name="nombre" value="VICERRECTORADO DE INTERNACIONALIZACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E326" />
+      <column name="nombre" value="VICERRECTORADO DE INVESTIGACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E358" />
+      <column name="nombre" value="VICERRECTORADO DE INVESTIGACIÓN E INTERNACIONALIZACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E309" />
+      <column name="nombre" value="VICERRECTORADO DE INVESTIGACIÓN Y NUEVAS TECNOLOGÍAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E351" />
+      <column name="nombre" value="VICERRECTORADO DE INVESTIGACIÓN Y TRANSFERENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E339" />
+      <column name="nombre" value="VICERRECTORADO DE PLANIFICACIÓN DE ENSEÑANZAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E354" />
+      <column name="nombre" value="VICERRECTORADO DE PLANIFICACIÓN DE LAS INFRAESTRUCTURAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E314" />
+      <column name="nombre" value="VICERRECTORADO DE PLANIFICACION E INFRAESTRUCTURAS" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E303" />
+      <column name="nombre" value="VICERRECTORADO DE PROFESORADO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E316" />
+      <column name="nombre" value="VICERRECTORADO DE PROFESORADO Y FORMACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E329" />
+      <column name="nombre"
+        value="VICERRECTORADO DE RELACIONES INSTITUCIONALES Y DE CIENCIAS DE LA SALUD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E323" />
+      <column name="nombre" value="VICERRECTORADO DE RELACIONES INTERNACIONALES E INNOV." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E335" />
+      <column name="nombre" value="VICERRECTORADO DE RELACIONES INTERNACIONALES E INNOVACIÓN" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E346" />
+      <column name="nombre"
+        value="VICERRECTORADO DE RESPONSABILIDAD SOCIAL, TRANSPARENCIA E IGUALDAD" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E364" />
+      <column name="nombre" value="VICERRECTORADO DE RESPONSABILIDAD SOCIAL Y CULTURA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E798" />
+      <column name="nombre" value="VICERRECTORADO DE RESPONSABILIDAD SOCIAL Y TRANSPARENCIA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E365" />
+      <column name="nombre"
+        value="VICERRECTORADO DE TRANSFERENCIA, COMUNICACIÓN Y DIVULGACIÓN CIENTÍFICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E359" />
+      <column name="nombre" value="VICERRECTORADO DE TRANSFERENCIA Y DIVULGACIÓN CIENTÍFICA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E344" />
+      <column name="nombre" value="VICERRECTORADO DE TRANSFERENCIA Y EMPRENDIMIENTO" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E317" />
+      <column name="nombre" value="VICERRECTORADO PARA LA COORDINACION UNIVERSITARIA EN CARTAGENA" />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E310" />
+      <column name="nombre" value="VIC.RELAC. INTERN. E INSTIT." />
+    </insert>
+
+    <insert tableName="departamento">
+      <column name="id" value="E0A0" />
+      <column name="nombre" value="ZOOLOGÍA Y ANTROPOLOGÍA FÍSICA" />
+    </insert>
+
+  </changeSet>
+
+</databaseChangeLog>

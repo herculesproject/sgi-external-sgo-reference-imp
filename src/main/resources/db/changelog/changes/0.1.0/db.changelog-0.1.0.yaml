@@ -1,0 +1,18 @@
+databaseChangeLog:
+
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-initial-database.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-area-conocimiento.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-centro.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-clasificacion.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-pais.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-comunidad-autonoma.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-departamento.xml
+  - include:
+      file: classpath*:db/changelog/changes/0.1.0/0.1.0-update-sample-data-provincia.xml

@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-1">
+    <createTable tableName="area_conocimiento">
+      <column name="id" type="VARCHAR(3)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="areaConocimientoPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+      <column name="padre_id" type="VARCHAR(3)" />
+    </createTable>
+
+    <addUniqueConstraint columnNames="nombre, padre_id"
+      constraintName="UK_AREACONOCIMIENTO_NOMBRE_PADRE" tableName="area_conocimiento" />
+
+    <addForeignKeyConstraint baseColumnNames="padre_id"
+      baseTableName="area_conocimiento" constraintName="FK_AREACONOCIMIENTO_PADRE"
+      deferrable="false" initiallyDeferred="false" referencedColumnNames="id"
+      referencedTableName="area_conocimiento" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-2">
+    <createTable tableName="clasificacion">
+      <column name="id" type="VARCHAR(255)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="clasificacionPK" />
+      </column>
+      <column name="codigo" type="VARCHAR(255)" />
+      <column name="nombre" type="VARCHAR(255)" />
+      <column name="padre_id" type="VARCHAR(255)" />
+      <column name="tipo" type="VARCHAR(50)" />
+    </createTable>
+
+    <addUniqueConstraint columnNames="nombre, padre_id"
+      constraintName="UK_CLASIFICACION_NOMBRE_PADRE" tableName="clasificacion" />
+
+    <addForeignKeyConstraint baseColumnNames="padre_id" baseTableName="clasificacion"
+      constraintName="FK_CLASIFICACION_PADRE" deferrable="false" initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="clasificacion" validate="true" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-3">
+    <createTable tableName="centro">
+      <column name="id" type="VARCHAR(4)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="centroPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-4">
+    <createTable tableName="comunidad_autonoma">
+      <column name="id" type="VARCHAR(2)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="comunidadAutonomaPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+      <column name="pais_id" type="VARCHAR(3)" />
+    </createTable>
+
+    <addUniqueConstraint columnNames="nombre, pais_id"
+      constraintName="UK_COMUNIDADAUTONOMA_NOMBRE_PAIS" tableName="comunidad_autonoma" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-5">
+    <createTable tableName="departamento">
+      <column name="id" type="VARCHAR(4)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="departamentoPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-6">
+    <createTable tableName="palabra_clave">
+      <column name="palabra" type="VARCHAR(250)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="palabra_clavePK" />
+      </column>
+    </createTable>
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-7">
+    <createTable tableName="pais">
+      <column name="id" type="VARCHAR(3)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="paisPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(100)" />
+    </createTable>
+
+    <addUniqueConstraint columnNames="nombre" constraintName="UK_PAIS_NOMBRE" tableName="pais" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-8">
+    <createTable tableName="provincia">
+      <column name="id" type="VARCHAR(2)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="provinciaPK" />
+      </column>
+      <column name="nombre" type="VARCHAR(255)" />
+      <column name="comunidad_autonoma_id" type="VARCHAR(2)" />
+    </createTable>
+
+    <addUniqueConstraint columnNames="nombre, comunidad_autonoma_id"
+      constraintName="UK_PROVINCIA_NOMBRE_COMUNIDADAUTONOMA" tableName="provincia" />
+  </changeSet>
+
+  <changeSet context="dev" author="user (generated)" id="00.01.00-9">
+    <addForeignKeyConstraint baseColumnNames="pais_id" baseTableName="comunidad_autonoma"
+      constraintName="FK_COMUNIDADAUTONOMA_PAIS" deferrable="false" initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="pais" validate="true" />
+
+    <addForeignKeyConstraint baseColumnNames="comunidad_autonoma_id" baseTableName="provincia"
+      constraintName="FK_PROVINCIA_COMUNIDADAUTONOMA" deferrable="false" initiallyDeferred="false"
+      referencedColumnNames="id" referencedTableName="comunidad_autonoma" validate="true" />
+  </changeSet>
+
+
+</databaseChangeLog>

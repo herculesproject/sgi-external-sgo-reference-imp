@@ -1,0 +1,1187 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.01.00-area-conocimiento">
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="C" />
+      <column name="nombre" value="Ciencias" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="H" />
+      <column name="nombre" value="Artes y Humanidades" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="I" />
+      <column name="nombre" value="Ingeniería y Arquitectura" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="J" />
+      <column name="nombre" value="Ciencias Sociales y Jurídicas" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="S" />
+      <column name="nombre" value="Ciencias de la Salud" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="005" />
+      <column name="nombre" value="ÁLGEBRA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="010" />
+      <column name="nombre" value="ANÁLISIS GEOGRÁFICO REGIONAL" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="015" />
+      <column name="nombre" value="ANÁLISIS MATEMÁTICO" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="020" />
+      <column name="nombre" value="ANATOMÍA PATOLÓGICA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="025" />
+      <column name="nombre" value="ANATOMÍA Y ANATOMÍA PATOLÓGICA COMPARADAS" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="027" />
+      <column name="nombre" value="ANATOMÍA Y EMBRIOLOGÍA HUMANA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="028" />
+      <column name="nombre" value="ANTROPOLOGÍA FÍSICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="030" />
+      <column name="nombre" value="ANTROPOLOGÍA SOCIAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="033" />
+      <column name="nombre" value="ARQUEOLOGÍA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="035" />
+      <column name="nombre" value="ARQUITECTURA Y TECNOLOGÍA DE COMPUTADORES" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="038" />
+      <column name="nombre" value="ASTRONOMÍA Y ASTROFÍSICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="040" />
+      <column name="nombre" value="BIBLIOTECONOMÍA Y DOCUMENTACIÓN" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="050" />
+      <column name="nombre" value="BIOLOGÍA CELULAR" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="060" />
+      <column name="nombre" value="BIOQUÍMICA Y BIOLOGÍA MOLECULAR" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="063" />
+      <column name="nombre" value="BOTÁNICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="065" />
+      <column name="nombre" value="CIENCIA DE LOS MATERIALES E INGENIERÍA METALÚRGICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="070" />
+      <column name="nombre" value="CIENCIA POLÍTICA Y DE LA ADMINISTRACIÓN" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="075" />
+      <column name="nombre" value="CIENCIA DE LA COMPUTACIÓN E INTELIGENCIA ARTIFICIAL" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="083" />
+      <column name="nombre" value="CIENCIAS Y TECNOLOGÍAS DE LA NAVEGACIÓN" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="085" />
+      <column name="nombre" value="CIENCIAS Y TÉCNICAS HISTORIOGRÁFICAS" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="090" />
+      <column name="nombre" value="CIRUGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="095" />
+      <column name="nombre" value="COMERCIALIZACIÓN E INVESTIGACIÓN DE MERCADOS" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="100" />
+      <column name="nombre" value="COMPOSICIÓN ARQUITECTÓNICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="105" />
+      <column name="nombre" value="COMUNICACIÓN AUDIOVISUAL Y PUBLICIDAD" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="110" />
+      <column name="nombre" value="CONSTRUCCIONES ARQUITECTÓNICAS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="115" />
+      <column name="nombre" value="CONSTRUCCIONES NAVALES" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="120" />
+      <column name="nombre" value="CRISTALOGRAFÍA Y MINERALOGÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="125" />
+      <column name="nombre" value="DERECHO ADMINISTRATIVO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="130" />
+      <column name="nombre" value="DERECHO CIVIL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="135" />
+      <column name="nombre" value="DERECHO CONSTITUCIONAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="140" />
+      <column name="nombre" value="DERECHO DEL TRABAJO Y DE LA SEGURIDAD SOCIAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="145" />
+      <column name="nombre" value="DERECHO ECLESIÁSTICO DEL ESTADO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="150" />
+      <column name="nombre" value="DERECHO FINANCIERO Y TRIBUTARIO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="155" />
+      <column name="nombre" value="DERECHO INTERNACIONAL PRIVADO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="160" />
+      <column name="nombre" value="DERECHO INTERNACIONAL PÚBLICO Y RELACIONES INTERNACIONALES" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="165" />
+      <column name="nombre" value="DERECHO MERCANTIL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="170" />
+      <column name="nombre" value="DERECHO PENAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="175" />
+      <column name="nombre" value="DERECHO PROCESAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="180" />
+      <column name="nombre" value="DERECHO ROMANO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="183" />
+      <column name="nombre" value="DERMATOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="185" />
+      <column name="nombre" value="DIBUJO" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="187" />
+      <column name="nombre" value="DIDÁCTICA  DE LA EXPRESIÓN CORPORAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="189" />
+      <column name="nombre" value="DIDÁCTICA DE LA EXPRESIÓN MUSICAL" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="193" />
+      <column name="nombre" value="DIDÁCTICA DE LA EXPRESIÓN PLÁSTICA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="195" />
+      <column name="nombre" value="DIDÁCTICA DE LA LENGUA Y LA LITERATURA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="200" />
+      <column name="nombre" value="DIDÁCTICA DE LA MATEMÁTICA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="205" />
+      <column name="nombre" value="DIDÁCTICA DE LAS CIENCIAS EXPERIMENTALES" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="210" />
+      <column name="nombre" value="DIDÁCTICA DE LAS CIENCIAS SOCIALES" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="215" />
+      <column name="nombre" value="DIDÁCTICA Y ORGANIZACIÓN ESCOLAR" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="220" />
+      <column name="nombre" value="ECOLOGÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="225" />
+      <column name="nombre" value="ECONOMÍA APLICADA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="230" />
+      <column name="nombre" value="ECONOMÍA FINANCIERA Y CONTABILIDAD" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="235" />
+      <column name="nombre" value="ECONOMÍA, SOCIOLOGÍA Y POLÍTICA AGRARIA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="240" />
+      <column name="nombre" value="EDAFOLOGÍA Y QUÍMICA AGRÍCOLA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="245" />
+      <column name="nombre" value="EDUCACIÓN FÍSICA Y DEPORTIVA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="247" />
+      <column name="nombre" value="ELECTROMAGNETISMO" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="250" />
+      <column name="nombre" value="ELECTRÓNICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="255" />
+      <column name="nombre" value="ENFERMERÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="260" />
+      <column name="nombre" value="ESCULTURA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="265" />
+      <column name="nombre" value="ESTADÍSTICA E INVESTIGACIÓN OPERATIVA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="270" />
+      <column name="nombre" value="ESTÉTICA Y TEORÍA DE LAS ARTES" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="275" />
+      <column name="nombre" value="ESTOMATOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="280" />
+      <column name="nombre" value="ESTRATIGRAFÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="285" />
+      <column name="nombre" value="ESTUDIOS ÁRABES E ISLÁMICOS" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="290" />
+      <column name="nombre" value="ESTUDIOS HEBREOS Y ARAMEOS" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="295" />
+      <column name="nombre" value="EXPLOTACIÓN DE MINAS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="300" />
+      <column name="nombre" value="EXPRESIÓN GRÁFICA ARQUITECTÓNICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="305" />
+      <column name="nombre" value="EXPRESIÓN GRÁFICA EN LA INGENIERÍA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="310" />
+      <column name="nombre" value="FARMACIA Y TECNOLOGÍA FARMACÉUTICA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="315" />
+      <column name="nombre" value="FARMACOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="320" />
+      <column name="nombre" value="FILOLOGÍA ALEMANA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="325" />
+      <column name="nombre" value="FILOLOGÍA CATALANA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="327" />
+      <column name="nombre" value="FILOLOGÍA ESLAVA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="335" />
+      <column name="nombre" value="FILOLOGÍA FRANCESA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="340" />
+      <column name="nombre" value="FILOLOGÍA GRIEGA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="345" />
+      <column name="nombre" value="FILOLOGÍA INGLESA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="350" />
+      <column name="nombre" value="FILOLOGÍA ITALIANA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="355" />
+      <column name="nombre" value="FILOLOGÍA LATINA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="360" />
+      <column name="nombre" value="FILOLOGÍA ROMÁNICA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="365" />
+      <column name="nombre" value="FILOLOGÍA VASCA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="370" />
+      <column name="nombre" value="FILOLOGÍA GALLEGA Y PORTUGUESA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="375" />
+      <column name="nombre" value="FILOSOFÍA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="381" />
+      <column name="nombre" value="FILOSOFÍA DEL DERECHO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="383" />
+      <column name="nombre" value="FILOSOFÍA MORAL" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="385" />
+      <column name="nombre" value="FÍSICA APLICADA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="390" />
+      <column name="nombre" value="FÍSICA ATÓMICA, MOLECULAR Y NUCLEAR" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="395" />
+      <column name="nombre" value="FÍSICA DE LA MATERIA CONDENSADA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="398" />
+      <column name="nombre" value="FÍSICA DE LA TIERRA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="405" />
+      <column name="nombre" value="FÍSICA TEÓRICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="410" />
+      <column name="nombre" value="FISIOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="412" />
+      <column name="nombre" value="FISIOLOGÍA VEGETAL" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="413" />
+      <column name="nombre" value="FISIOTERAPIA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="415" />
+      <column name="nombre" value="FUNDAMENTOS DEL ANÁLISIS ECONÓMICO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="420" />
+      <column name="nombre" value="GENÉTICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="427" />
+      <column name="nombre" value="GEODINÁMICA EXTERNA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="428" />
+      <column name="nombre" value="GEODINÁMICA INTERNA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="430" />
+      <column name="nombre" value="GEOGRAFÍA FÍSICA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="435" />
+      <column name="nombre" value="GEOGRAFÍA HUMANA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="440" />
+      <column name="nombre" value="GEOMETRÍA Y TOPOLOGÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="443" />
+      <column name="nombre" value="HISTOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="445" />
+      <column name="nombre" value="HISTORIA ANTIGUA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="450" />
+      <column name="nombre" value="HISTORIA CONTEMPORÁNEA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="455" />
+      <column name="nombre" value="HISTORIA DE AMÉRICA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="460" />
+      <column name="nombre" value="HISTORIA DE LA CIENCIA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="465" />
+      <column name="nombre" value="HISTORIA DEL ARTE" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="470" />
+      <column name="nombre" value="HISTORIA DEL DERECHO Y DE LAS INSTITUCIONES" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="475" />
+      <column name="nombre"
+        value="HISTORIA DEL PENSAMIENTO Y DE LOS MOVIMIENTOS SOCIALES Y POLITICOS" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="480" />
+      <column name="nombre" value="HISTORIA E INSTITUCIONES ECONÓMICAS" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="485" />
+      <column name="nombre" value="HISTORIA MEDIEVAL" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="490" />
+      <column name="nombre" value="HISTORIA MODERNA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="495" />
+      <column name="nombre" value="INGENIERÍA AEREOESPACIAL" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="500" />
+      <column name="nombre" value="INGENIERÍA AGROFORESTAL" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="505" />
+      <column name="nombre" value="INGENIERÍA CARTOGRÁFICA, GEODÉSICA Y FOTOGRAMETRÍA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="510" />
+      <column name="nombre" value="INGENIERÍA DE LA CONSTRUCCION" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="515" />
+      <column name="nombre" value="INGENIERÍA DE LOS PROCESOS DE FABRICACIÓN" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="520" />
+      <column name="nombre" value="INGENIERÍA DE SISTEMAS Y AUTOMÁTICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="525" />
+      <column name="nombre" value="INGENIERÍA DEL TERRENO" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="530" />
+      <column name="nombre" value="INGENIERÍA E INFRAESTRUCTURA DE LOS TRANSPORTES" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="535" />
+      <column name="nombre" value="INGENIERÍA ELÉCTRICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="540" />
+      <column name="nombre" value="INGENIERÍA HIDRÁULICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="545" />
+      <column name="nombre" value="INGENIERÍA MECÁNICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="550" />
+      <column name="nombre" value="INGENIERÍA NUCLEAR" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="555" />
+      <column name="nombre" value="INGENIERÍA QUÍMICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="560" />
+      <column name="nombre" value="INGENIERÍA TELEMÁTICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="565" />
+      <column name="nombre" value="INGENIERÍA TEXTIL Y PAPELERA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="566" />
+      <column name="nombre" value="INMUNOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="567" />
+      <column name="nombre" value="LENGUA ESPAÑOLA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="568" />
+      <column name="nombre" value="ESTUDIOS DE ASIA ORIENTAL" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="570" />
+      <column name="nombre" value="LENGUAJES Y SISTEMAS INFORMÁTICOS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="575" />
+      <column name="nombre" value="LINGÜÍSTICA GENERAL" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="580" />
+      <column name="nombre" value="LINGÜÍSTICA INDOEUROPEA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="583" />
+      <column name="nombre" value="LITERATURA ESPAÑOLA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="585" />
+      <column name="nombre" value="LÓGICA Y FILOSOFÍA DE LA CIENCIA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="590" />
+      <column name="nombre" value="MÁQUINAS Y MOTORES TÉRMICOS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="595" />
+      <column name="nombre" value="MATEMÁTICA APLICADA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="600" />
+      <column name="nombre" value="MECÁNICA DE FLUIDOS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="605" />
+      <column name="nombre" value="MECÁNICA DE MEDIOS CONTÍNUOS Y TEORÍA DE ESTRUCTURAS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="610" />
+      <column name="nombre" value="MEDICINA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="613" />
+      <column name="nombre" value="MEDICINA LEGAL Y FORENSE" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="615" />
+      <column name="nombre" value="MEDICINA PREVENTIVA Y SALUD PÚBLICA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="617" />
+      <column name="nombre" value="MEDICINA Y CIRUGÍA ANIMAL" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="620" />
+      <column name="nombre" value="METODOLOGÍA DE LAS CIENCIAS Y DEL COMPORTAMIENTO" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="623" />
+      <column name="nombre" value="MÉTODOS CUANTITATIVOS PARA LA ECONOMÍA Y LA EMPRESA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="625" />
+      <column name="nombre" value="MÉTODOS DE INVESTIGACIÓN Y DIAGNÓSTICO EN EDUCACIÓN" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="630" />
+      <column name="nombre" value="MICROBIOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="635" />
+      <column name="nombre" value="MÚSICA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="640" />
+      <column name="nombre" value="NUTRICIÓN Y BROMATOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="645" />
+      <column name="nombre" value="OBSTETRICIA Y GINECOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="646" />
+      <column name="nombre" value="OFTALMOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="647" />
+      <column name="nombre" value="ÓPTICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="650" />
+      <column name="nombre" value="ORGANIZACIÓN DE EMPRESAS" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="653" />
+      <column name="nombre" value="OTORRINOLARINGOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="655" />
+      <column name="nombre" value="PALEONTOLOGÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="660" />
+      <column name="nombre" value="PARASITOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="670" />
+      <column name="nombre" value="PEDIATRÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="675" />
+      <column name="nombre" value="PERIODISMO" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="680" />
+      <column name="nombre" value="PERSONALIDAD, EVALUACIÓN Y TRATAMIENTO PSICOLÓGICO" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="685" />
+      <column name="nombre" value="PETROLOGÍA Y GEOQUÍMICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="690" />
+      <column name="nombre" value="PINTURA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="695" />
+      <column name="nombre" value="PREHISTORIA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="700" />
+      <column name="nombre" value="PRODUCCIÓN ANIMAL" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="705" />
+      <column name="nombre" value="PRODUCCIÓN VEGETAL" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="710" />
+      <column name="nombre" value="PROSPECCIÓN E INVESTIGACIÓN MINERA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="715" />
+      <column name="nombre" value="PROYECTOS ARQUITECTÓNICOS" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="720" />
+      <column name="nombre" value="PROYECTOS DE INGENIERÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="725" />
+      <column name="nombre" value="PSICOBIOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="730" />
+      <column name="nombre" value="PSICOLOGÍA BÁSICA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="735" />
+      <column name="nombre" value="PSICOLOGÍA EVOLUTIVA Y DE LA EDUCACIÓN" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="740" />
+      <column name="nombre" value="PSICOLOGÍA SOCIAL" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="745" />
+      <column name="nombre" value="PSIQUIATRÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="750" />
+      <column name="nombre" value="QUÍMICA ANALÍTICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="755" />
+      <column name="nombre" value="QUÍMICA FÍSICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="760" />
+      <column name="nombre" value="QUÍMICA INORGÁNICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="765" />
+      <column name="nombre" value="QUÍMICA ORGÁNICA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="770" />
+      <column name="nombre" value="RADIOLOGÍA Y MEDICINA FÍSICA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="773" />
+      <column name="nombre" value="SANIDAD ANIMAL" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="775" />
+      <column name="nombre" value="SOCIOLOGÍA" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="780" />
+      <column name="nombre" value="TECNOLOGÍA DE ALIMENTOS" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="785" />
+      <column name="nombre" value="TECNOLOGÍA ELECTRÓNICA" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="790" />
+      <column name="nombre" value="TECNOLOGÍAS DEL MEDIO AMBIENTE" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="796" />
+      <column name="nombre" value="TEORÍA DE LA LITERATURA Y LITERATURA COMPARADA" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="800" />
+      <column name="nombre" value="TEORÍA DE LA SEÑAL Y COMUNICACIONES" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="805" />
+      <column name="nombre" value="TEORÍA E HISTORIA DE LA EDUCACIÓN" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="807" />
+      <column name="nombre" value="TOXICOLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="813" />
+      <column name="nombre" value="TRABAJO SOCIAL Y SERVICIOS SOCIALES" />
+      <column name="padre_id" value="J" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="814" />
+      <column name="nombre" value="TRADUCCIÓN E INTERPRETACIÓN" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="815" />
+      <column name="nombre" value="URBANÍSTICA Y ORDENACIÓN DEL TERRITORIO" />
+      <column name="padre_id" value="I" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="817" />
+      <column name="nombre" value="UROLOGÍA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="819" />
+      <column name="nombre" value="ZOOLOGÍA" />
+      <column name="padre_id" value="C" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="830" />
+      <column name="nombre" value="TRAUMATOLOGÍA Y ORTOPEDIA" />
+      <column name="padre_id" value="S" />
+    </insert>
+
+    <insert tableName="area_conocimiento">
+      <column name="id" value="999" />
+      <column name="nombre" value="OTRAS ÁREAS DE CONOCIMIENTO" />
+      <column name="padre_id" value="H" />
+    </insert>
+
+
+  </changeSet>
+
+</databaseChangeLog>

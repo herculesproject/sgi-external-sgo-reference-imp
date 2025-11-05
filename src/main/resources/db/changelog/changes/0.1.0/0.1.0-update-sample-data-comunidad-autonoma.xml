@@ -1,0 +1,146 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.02.00-comunidad-autonoma">
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="01" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE ANDALUCIA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="02" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE ARAGON" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="03" />
+      <column name="nombre" value="PRINCIPADO DE ASTURIAS" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="04" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE BALEARES" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="17" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DEL PAIS VASCO" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="05" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE CANARIAS" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="06" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE CANTABRIA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="09" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE CATALUÑA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="08" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE CASTILLA-LA MANCHA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="07" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE CASTILLA Y LEON" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="10" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE EXTREMADURA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="11" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE GALICIA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="12" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE LA RIOJA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="13" />
+      <column name="nombre" value="COMUNIDAD AUTONOMA DE  MADRID" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="14" />
+      <column name="nombre" value="REGION DE MURCIA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="15" />
+      <column name="nombre" value="COMUNIDAD FORAL DE NAVARRA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="16" />
+      <column name="nombre" value="COMUNIDAD VALENCIANA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="XX" />
+      <column name="nombre" value="CIUDADES AUTONOMAS" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="18" />
+      <column name="nombre" value="CEUTA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="19" />
+      <column name="nombre" value="MELILLA" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="00" />
+      <column name="nombre" value="ESTADO" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+    <insert tableName="comunidad_autonoma">
+      <column name="id" value="60" />
+      <column name="nombre" value="EXTRANJERO" />
+      <column name="pais_id" value="011" />
+    </insert>
+
+  </changeSet>
+
+</databaseChangeLog>

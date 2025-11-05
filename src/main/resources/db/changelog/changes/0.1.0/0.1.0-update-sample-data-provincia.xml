@@ -1,0 +1,326 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.02.00-provincia">
+
+    <insert tableName="provincia">
+      <column name="id" value="01" />
+      <column name="nombre" value="ALAVA" />
+      <column name="comunidad_autonoma_id" value="17" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="02" />
+      <column name="nombre" value="ALBACETE" />
+      <column name="comunidad_autonoma_id" value="08" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="03" />
+      <column name="nombre" value="ALICANTE" />
+      <column name="comunidad_autonoma_id" value="16" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="04" />
+      <column name="nombre" value="ALMERIA" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="05" />
+      <column name="nombre" value="AVILA" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="06" />
+      <column name="nombre" value="BADAJOZ" />
+      <column name="comunidad_autonoma_id" value="10" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="07" />
+      <column name="nombre" value="ILLES BALEARS" />
+      <column name="comunidad_autonoma_id" value="04" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="08" />
+      <column name="nombre" value="BARCELONA" />
+      <column name="comunidad_autonoma_id" value="09" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="09" />
+      <column name="nombre" value="BURGOS" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="10" />
+      <column name="nombre" value="CACERES" />
+      <column name="comunidad_autonoma_id" value="10" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="11" />
+      <column name="nombre" value="CADIZ" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="12" />
+      <column name="nombre" value="CASTELLON" />
+      <column name="comunidad_autonoma_id" value="16" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="13" />
+      <column name="nombre" value="CIUDAD REAL" />
+      <column name="comunidad_autonoma_id" value="08" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="14" />
+      <column name="nombre" value="CORDOBA" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="15" />
+      <column name="nombre" value="CORUÑA (A)" />
+      <column name="comunidad_autonoma_id" value="11" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="16" />
+      <column name="nombre" value="CUENCA" />
+      <column name="comunidad_autonoma_id" value="08" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="17" />
+      <column name="nombre" value="GIRONA" />
+      <column name="comunidad_autonoma_id" value="09" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="18" />
+      <column name="nombre" value="GRANADA" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="19" />
+      <column name="nombre" value="GUADALAJARA" />
+      <column name="comunidad_autonoma_id" value="08" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="20" />
+      <column name="nombre" value="GUIPUZCOA" />
+      <column name="comunidad_autonoma_id" value="17" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="21" />
+      <column name="nombre" value="HUELVA" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="22" />
+      <column name="nombre" value="HUESCA" />
+      <column name="comunidad_autonoma_id" value="02" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="23" />
+      <column name="nombre" value="JAEN" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="24" />
+      <column name="nombre" value="LEON" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="25" />
+      <column name="nombre" value="LLEIDA" />
+      <column name="comunidad_autonoma_id" value="09" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="26" />
+      <column name="nombre" value="LA RIOJA" />
+      <column name="comunidad_autonoma_id" value="12" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="27" />
+      <column name="nombre" value="LUGO" />
+      <column name="comunidad_autonoma_id" value="11" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="28" />
+      <column name="nombre" value="MADRID" />
+      <column name="comunidad_autonoma_id" value="13" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="29" />
+      <column name="nombre" value="MALAGA" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="30" />
+      <column name="nombre" value="MURCIA" />
+      <column name="comunidad_autonoma_id" value="14" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="31" />
+      <column name="nombre" value="NAVARRA" />
+      <column name="comunidad_autonoma_id" value="15" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="32" />
+      <column name="nombre" value="OURENSE" />
+      <column name="comunidad_autonoma_id" value="11" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="33" />
+      <column name="nombre" value="ASTURIAS" />
+      <column name="comunidad_autonoma_id" value="03" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="34" />
+      <column name="nombre" value="PALENCIA" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="35" />
+      <column name="nombre" value="LAS PALMAS" />
+      <column name="comunidad_autonoma_id" value="05" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="36" />
+      <column name="nombre" value="PONTEVEDRA" />
+      <column name="comunidad_autonoma_id" value="11" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="37" />
+      <column name="nombre" value="SALAMANCA" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="38" />
+      <column name="nombre" value="SANTA CRUZ DE TENERIFE" />
+      <column name="comunidad_autonoma_id" value="05" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="39" />
+      <column name="nombre" value="CANTABRIA" />
+      <column name="comunidad_autonoma_id" value="06" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="40" />
+      <column name="nombre" value="SEGOVIA" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="41" />
+      <column name="nombre" value="SEVILLA" />
+      <column name="comunidad_autonoma_id" value="01" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="42" />
+      <column name="nombre" value="SORIA" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="43" />
+      <column name="nombre" value="TARRAGONA" />
+      <column name="comunidad_autonoma_id" value="09" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="44" />
+      <column name="nombre" value="TERUEL" />
+      <column name="comunidad_autonoma_id" value="02" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="45" />
+      <column name="nombre" value="TOLEDO" />
+      <column name="comunidad_autonoma_id" value="08" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="46" />
+      <column name="nombre" value="VALENCIA" />
+      <column name="comunidad_autonoma_id" value="16" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="47" />
+      <column name="nombre" value="VALLADOLID" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="48" />
+      <column name="nombre" value="VIZCAYA" />
+      <column name="comunidad_autonoma_id" value="17" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="49" />
+      <column name="nombre" value="ZAMORA" />
+      <column name="comunidad_autonoma_id" value="07" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="50" />
+      <column name="nombre" value="ZARAGOZA" />
+      <column name="comunidad_autonoma_id" value="02" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="51" />
+      <column name="nombre" value="CEUTA" />
+      <column name="comunidad_autonoma_id" value="18" />
+    </insert>
+
+    <insert tableName="provincia">
+      <column name="id" value="52" />
+      <column name="nombre" value="MELILLA" />
+      <column name="comunidad_autonoma_id" value="19" />
+    </insert>
+
+  </changeSet>
+
+</databaseChangeLog>

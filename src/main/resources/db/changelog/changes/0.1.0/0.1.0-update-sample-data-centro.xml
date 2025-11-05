@@ -1,0 +1,338 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.02.00-centro">
+
+    <insert tableName="centro">
+      <column name="id" value="0E55" />
+      <column name="nombre" value="BIBLIOTECA GENERAL" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E42" />
+      <column name="nombre" value="CENTRO DE LORCA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E61" />
+      <column name="nombre" value="EDIFICIO MULTIPLE 'GINER DE LOS RIOS'" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E60" />
+      <column name="nombre" value="EDIFICIO MULTIPLE 'LUIS VIVES'" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E24" />
+      <column name="nombre" value="ESCUELA DE ESTOMATOLOGIA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E97" />
+      <column name="nombre"
+        value="ESCUELA DE NEGOCIOS, DIRECCIÓN Y ADMINISTRACIÓN DE EMPRESAS (ENAE)" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E41" />
+      <column name="nombre" value="ESCUELA DE ÓPTICA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="ED01" />
+      <column name="nombre" value="ESCUELA INTERNACIONAL DE DOCTORADO" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E29" />
+      <column name="nombre" value="ESCUELA POLITECNICA SUPERIOR" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E32" />
+      <column name="nombre" value="ESCUELA TECNICA SUPERIOR DE INGENIEROS AGRONOMOS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E31" />
+      <column name="nombre" value="ESCUELA TECNICA SUPERIOR DE INGENIEROS INDUSTRIALES" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E09" />
+      <column name="nombre" value="ESCUELA TECNICA SUPERIOR INGENIEROS INDUSTRIALES CARTAGENA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E90" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA ADSCRITA DE ENFERMERÍA DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E18" />
+      <column name="nombre"
+        value="ESCUELA UNIVERSITARIA ADSCRITA DE ENFERMERÍA DE LA COMUNIDAD AUTONOMA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E91" />
+      <column name="nombre"
+        value="ESCUELA UNIVERSITARIA ADSCRITA DE RELACIONES LABORALES DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E93" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA ADSCRITA DE TURISMO DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E26" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE BIBLIOTECONOMIA.Y DOCUMENTACION" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E25" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E19" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE ESTUDIOS EMPRESARIALES DE CARTAGENA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E10" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE ESTUDIOS EMPRESARIALES DE MURCIA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E33" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE INGENIERIA TECNICA MINERA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E34" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE INGENIERIA TECNICA NAVAL" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E95" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE OSTEOPATÍA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E23" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE RELACIONES LABORALES" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E21" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA DE TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E16" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA ENFERMERIA SANTA MARIA DEL ROSELL" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E17" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA ENFERMERIA VIRGEN.ARRIXACA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E12" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA INFORMATICA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E13" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA POLITECNICA.CARTAG." />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E14" />
+      <column name="nombre" value="ESCUELA UNIVERSITARIA PROFESORADO E.G.B." />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E98" />
+      <column name="nombre" value="ESIUM" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E36" />
+      <column name="nombre" value="FACULTAD DE BELLAS ARTES" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E01" />
+      <column name="nombre" value="FACULTAD DE BIOLOGÍA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0AA3" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E35" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS DE LA DOCUMENTACION" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E40" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS DEL DEPORTE" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E38" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS DEL TRABAJO" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E02" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E46" />
+      <column name="nombre" value="FACULTAD DE CIENCIAS SOCIOSANITARIAS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E39" />
+      <column name="nombre" value="FACULTAD DE COMUNICACIÓN Y DOCUMENTACIÓN" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E04" />
+      <column name="nombre" value="FACULTAD DE DERECHO" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E37" />
+      <column name="nombre" value="FACULTAD DE ECONOMÍA Y EMPRESA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E30" />
+      <column name="nombre" value="FACULTAD DE EDUCACIÓN" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E44" />
+      <column name="nombre" value="FACULTAD DE ENFERMERÍA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E05" />
+      <column name="nombre" value="FACULTAD DE FILOSOFÍA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0A05" />
+      <column name="nombre" value="FACULTAD DE FILOSOFIA PSICOLOGIA Y CIENCIAD DE LA EDUCACION" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E22" />
+      <column name="nombre" value="FACULTAD DE INFORMÁTICA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E06" />
+      <column name="nombre" value="FACULTAD DE LETRAS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E28" />
+      <column name="nombre" value="FACULTAD DE MATEMÁTICAS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E07" />
+      <column name="nombre" value="FACULTAD DE MEDICINA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E45" />
+      <column name="nombre" value="FACULTAD DE ÓPTICA Y OPTOMETRÍA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E27" />
+      <column name="nombre" value="FACULTAD DE PSICOLOGÍA y LOGOPEDIA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E03" />
+      <column name="nombre" value="FACULTAD DE QUÍMICA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0AB3" />
+      <column name="nombre" value="FACULTAD DE QUIMICAS Y MATEMATICAS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E43" />
+      <column name="nombre" value="FACULTAD DE TRABAJO SOCIAL" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E92" />
+      <column name="nombre" value="FACULTAD DE TURISMO" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E08" />
+      <column name="nombre" value="FACULTAD DE VETERINARIA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E96" />
+      <column name="nombre" value="INSTITUTO TEOLÓGICO DE MURCIA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="IU38" />
+      <column name="nombre" value="INSTITUTO UNIVERSITARIO DE INVESTIGACIÓN EN ÓPTICA Y NANOFÍSICA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="IU39" />
+      <column name="nombre"
+        value="INSTITUTO UNIVERSITARIO DE INVESTIGACIÓN EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIONES ORIENTADA" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E20" />
+      <column name="nombre" value="INSTITUTOS UNIVERSITARIOS" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E94" />
+      <column name="nombre" value="ISEN CENTRO UNIVERSITARIO" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0E00" />
+      <column name="nombre" value="SERVICIOS GENERALES" />
+    </insert>
+
+    <insert tableName="centro">
+      <column name="id" value="0ECA" />
+      <column name="nombre" value="SERVICIOS GENERALES C.CARTAGENA" />
+    </insert>
+
+  </changeSet>
+
+</databaseChangeLog>

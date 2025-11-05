@@ -1,0 +1,1173 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <changeSet context="dev" author="master" id="00.02.00-pais">
+
+    <insert tableName="pais">
+      <column name="id" value="001" />
+      <column name="nombre" value="FRANCIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="002" />
+      <column name="nombre" value="BELGICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="352" />
+      <column name="nombre" value="TANZANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="724" />
+      <column name="nombre" value="COREA DEL NORTE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="732" />
+      <column name="nombre" value="JAPON" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="736" />
+      <column name="nombre" value="TAIWAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="740" />
+      <column name="nombre" value="HONG-KONG" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="743" />
+      <column name="nombre" value="MACAO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="800" />
+      <column name="nombre" value="AUSTRALIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="801" />
+      <column name="nombre" value="PAPUA NUEVA GUINEA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="806" />
+      <column name="nombre" value="ISLAS SALOMON" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="809" />
+      <column name="nombre" value="NUEVA CALEDONIA Y DEPENDENCIAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="810" />
+      <column name="nombre" value="OCEANIA AMERICANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="082" />
+      <column name="nombre" value="TAJIKISTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="083" />
+      <column name="nombre" value="KIRGUIZISTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="003" />
+      <column name="nombre" value="PAISES BAJOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="004" />
+      <column name="nombre" value="ALEMANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="008" />
+      <column name="nombre" value="DINAMARCA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="009" />
+      <column name="nombre" value="GRECIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="010" />
+      <column name="nombre" value="PORTUGAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="022" />
+      <column name="nombre" value="MONACO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="023" />
+      <column name="nombre" value="LIECHTENSTEIN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="024" />
+      <column name="nombre" value="ISLANDIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="028" />
+      <column name="nombre" value="NORUEGA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="030" />
+      <column name="nombre" value="SUECIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="032" />
+      <column name="nombre" value="FINLANDIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="038" />
+      <column name="nombre" value="AUSTRIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="043" />
+      <column name="nombre" value="ANDORRA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="044" />
+      <column name="nombre" value="GIBRALTAR" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="052" />
+      <column name="nombre" value="TURQUIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="055" />
+      <column name="nombre" value="LITUANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="060" />
+      <column name="nombre" value="POLONIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="061" />
+      <column name="nombre" value="REPUBLICA CHECA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="063" />
+      <column name="nombre" value="ESLOVAQUIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="064" />
+      <column name="nombre" value="HUNGRIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="068" />
+      <column name="nombre" value="BULGARIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="070" />
+      <column name="nombre" value="ALBANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="074" />
+      <column name="nombre" value="MOLDAVIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="075" />
+      <column name="nombre" value="RUSIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="077" />
+      <column name="nombre" value="ARMENIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="080" />
+      <column name="nombre" value="TURKMENISTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="350" />
+      <column name="nombre" value="UGANDA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="355" />
+      <column name="nombre" value="SEYCHELLES Y DEPENDENCIAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="357" />
+      <column name="nombre" value="TERRITORIO BRITANICO DEL OCEANO INDICO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="366" />
+      <column name="nombre" value="MOZAMBIQUE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="370" />
+      <column name="nombre" value="MADAGASCAR" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="377" />
+      <column name="nombre" value="MAYOTTE, GRAN TIERRA Y PAMANZI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="378" />
+      <column name="nombre" value="ZAMBIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="391" />
+      <column name="nombre" value="BOTSWANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="393" />
+      <column name="nombre" value="SWAZILANDIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="400" />
+      <column name="nombre" value="ESTADOS UNIDOS DE AMERICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="404" />
+      <column name="nombre" value="CANADA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="406" />
+      <column name="nombre" value="GROENLANDIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="413" />
+      <column name="nombre" value="BERMUDAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="416" />
+      <column name="nombre" value="GUATEMALA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="421" />
+      <column name="nombre" value="BELICE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="428" />
+      <column name="nombre" value="EL SALVADOR" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="446" />
+      <column name="nombre" value="ANGUILLA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="448" />
+      <column name="nombre" value="CUBA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="456" />
+      <column name="nombre" value="REPUBLICA DOMINICANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="457" />
+      <column name="nombre" value="ISLAS VIRGENES DE LOS ESTADOS UNIDOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="459" />
+      <column name="nombre" value="ANTIGUA Y BARBUDA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="460" />
+      <column name="nombre" value="DOMINICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="462" />
+      <column name="nombre" value="MARTINICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="463" />
+      <column name="nombre" value="ISLAS CAIMAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="464" />
+      <column name="nombre" value="JAMAICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="472" />
+      <column name="nombre" value="TRINIDAD Y TOBAGO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="720" />
+      <column name="nombre" value="CHINA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="811" />
+      <column name="nombre" value="ISLAS WALLIS Y FORTUNA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="812" />
+      <column name="nombre" value="KIRIBATI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="814" />
+      <column name="nombre" value="OCEANIA NEOZELANDESA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="816" />
+      <column name="nombre" value="VANUATU" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="819" />
+      <column name="nombre" value="SAMOA OCCIDENTAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="822" />
+      <column name="nombre" value="POLINESIA FRANCESA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="823" />
+      <column name="nombre" value="FEDERACION DE ESTADOS DE MICRONESIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="890" />
+      <column name="nombre" value="REGIONES POLARES (ANTARTIDA)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="998" />
+      <column name="nombre" value="APATRIDAS Y REFUGIADOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="091" />
+      <column name="nombre" value="ESLOVENIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="096" />
+      <column name="nombre" value="TERRITORIO DE LA ANTIG. REP. YUGOS. DE MACEDONIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="208" />
+      <column name="nombre" value="ARGELIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="212" />
+      <column name="nombre" value="TUNEZ" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="220" />
+      <column name="nombre" value="EGIPTO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="224" />
+      <column name="nombre" value="SUDAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="228" />
+      <column name="nombre" value="MAURITANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="232" />
+      <column name="nombre" value="MALI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="244" />
+      <column name="nombre" value="CHAD" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="247" />
+      <column name="nombre" value="CABO VERDE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="248" />
+      <column name="nombre" value="SENEGAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="252" />
+      <column name="nombre" value="GAMBIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="257" />
+      <column name="nombre" value="GUINEA BISSAU" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="260" />
+      <column name="nombre" value="GUINEA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="264" />
+      <column name="nombre" value="SIERRA LEONA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="268" />
+      <column name="nombre" value="LIBERIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="272" />
+      <column name="nombre" value="COSTA DE MARFIL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="276" />
+      <column name="nombre" value="GHANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="284" />
+      <column name="nombre" value="BENIN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="288" />
+      <column name="nombre" value="NIGERIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="302" />
+      <column name="nombre" value="CAMERUN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="311" />
+      <column name="nombre" value="SANTO TOME Y PRINCIPE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="314" />
+      <column name="nombre" value="GABON" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="318" />
+      <column name="nombre" value="CONGO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="322" />
+      <column name="nombre" value="ZAIRE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="324" />
+      <column name="nombre" value="RUANDA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="328" />
+      <column name="nombre" value="BURUNDI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="330" />
+      <column name="nombre" value="ANGOLA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="334" />
+      <column name="nombre" value="ETIOPIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="336" />
+      <column name="nombre" value="ERITREA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="338" />
+      <column name="nombre" value="DJIBUTI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="342" />
+      <column name="nombre" value="SOMALIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="346" />
+      <column name="nombre" value="KENIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="480" />
+      <column name="nombre" value="COLOMBIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="484" />
+      <column name="nombre" value="VENEZUELA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="488" />
+      <column name="nombre" value="GUYANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="496" />
+      <column name="nombre" value="GUAYANA FRANCESA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="500" />
+      <column name="nombre" value="ECUADOR E ISLAS GALAPAGOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="504" />
+      <column name="nombre" value="PERU" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="508" />
+      <column name="nombre" value="BRASIL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="512" />
+      <column name="nombre" value="CHILE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="524" />
+      <column name="nombre" value="URUGUAY" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="528" />
+      <column name="nombre" value="ARGENTINA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="529" />
+      <column name="nombre" value="ISLAS MALVINAS (FALKLAND)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="600" />
+      <column name="nombre" value="CHIPRE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="604" />
+      <column name="nombre" value="LIBANO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="608" />
+      <column name="nombre" value="SIRIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="612" />
+      <column name="nombre" value="IRAK" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="616" />
+      <column name="nombre" value="IRAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="624" />
+      <column name="nombre" value="ISRAEL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="628" />
+      <column name="nombre" value="JORDANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="632" />
+      <column name="nombre" value="ARABIA SAUDITA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="640" />
+      <column name="nombre" value="BAHREIN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="644" />
+      <column name="nombre" value="QATAR" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="647" />
+      <column name="nombre" value="EMIRATOS ARABES UNIDOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="649" />
+      <column name="nombre" value="OMAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="653" />
+      <column name="nombre" value="YEMEN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="660" />
+      <column name="nombre" value="AFGANISTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="664" />
+      <column name="nombre" value="INDIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="666" />
+      <column name="nombre" value="BANGLADESH" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="667" />
+      <column name="nombre" value="MALDIVAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="669" />
+      <column name="nombre" value="SRI LANKA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="672" />
+      <column name="nombre" value="NEPAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="675" />
+      <column name="nombre" value="BHUTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="676" />
+      <column name="nombre" value="MYANMAR (ANTIGUA BIRMANIA)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="684" />
+      <column name="nombre" value="LAOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="696" />
+      <column name="nombre" value="CAMBOYA (KAMPUCHEA)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="700" />
+      <column name="nombre" value="INDONESIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="701" />
+      <column name="nombre" value="MALASIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="703" />
+      <column name="nombre" value="BRUNEI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="706" />
+      <column name="nombre" value="SINGAPUR" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="708" />
+      <column name="nombre" value="FILIPINAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="716" />
+      <column name="nombre" value="MONGOLIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="375" />
+      <column name="nombre" value="COMORAS, GRAN COMORE, ANJOUAN Y MCHE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="401" />
+      <column name="nombre" value="PUERTO RICO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="818" />
+      <column name="nombre" value="ISLAS COOK" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="804" />
+      <column name="nombre" value="NUEVA ZELANDA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="036" />
+      <column name="nombre" value="SUIZA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="424" />
+      <column name="nombre" value="HONDURAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="728" />
+      <column name="nombre" value="COREA DEL SUR" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="011" />
+      <column name="nombre" value="ESPAÑA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="395" />
+      <column name="nombre" value="LESOTHO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="453" />
+      <column name="nombre" value="BAHAMAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="078" />
+      <column name="nombre" value="AZERBAIJAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="076" />
+      <column name="nombre" value="GEORGIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="054" />
+      <column name="nombre" value="LETONIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="386" />
+      <column name="nombre" value="MALAWI (NYASSALAND)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="467" />
+      <column name="nombre" value="SAN VICENTE Y LAS GRANADINAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="807" />
+      <column name="nombre" value="TUVALU" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="469" />
+      <column name="nombre" value="BARBADOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="073" />
+      <column name="nombre" value="BIELORRUSIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="436" />
+      <column name="nombre" value="COSTA RICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="053" />
+      <column name="nombre" value="ESTONIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="815" />
+      <column name="nombre" value="FIDJI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="006" />
+      <column name="nombre" value="REINO UNIDO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="236" />
+      <column name="nombre" value="BURKINA FASO (ALTO VOLTA)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="007" />
+      <column name="nombre" value="IRLANDA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="079" />
+      <column name="nombre" value="KAZAJSTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="012" />
+      <column name="nombre" value="LUXEMBURGO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="216" />
+      <column name="nombre" value="LIBIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="204" />
+      <column name="nombre" value="MARRUECOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="412" />
+      <column name="nombre" value="MEXICO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="373" />
+      <column name="nombre" value="MAURICIO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="478" />
+      <column name="nombre" value="ANTILLAS HOLANDESAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="432" />
+      <column name="nombre" value="NICARAGUA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="442" />
+      <column name="nombre" value="PANAMA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="662" />
+      <column name="nombre" value="PAKISTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="520" />
+      <column name="nombre" value="PARAGUAY" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="066" />
+      <column name="nombre" value="RUMANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="306" />
+      <column name="nombre" value="REPUBLICA CENTROAFRICANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="452" />
+      <column name="nombre" value="HAITI" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="047" />
+      <column name="nombre" value="SAN MARINO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="382" />
+      <column name="nombre" value="ZIMBABWE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="449" />
+      <column name="nombre" value="SAN CRISTOBAL Y NIEVES" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="492" />
+      <column name="nombre" value="SURINAM (GUAYANA HOLANDESA)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="389" />
+      <column name="nombre" value="NAMIBIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="280" />
+      <column name="nombre" value="TOGO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="817" />
+      <column name="nombre" value="TONGA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="072" />
+      <column name="nombre" value="UCRANIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="081" />
+      <column name="nombre" value="UZBEKISTAN" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="690" />
+      <column name="nombre" value="VIETNAM" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="473" />
+      <column name="nombre" value="GRANADA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="465" />
+      <column name="nombre" value="SANTA LUCIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="388" />
+      <column name="nombre" value="SUDAFRICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="802" />
+      <column name="nombre" value="OCEANIA AUSTRALIANA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="041" />
+      <column name="nombre" value="ISLAS FEROE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="045" />
+      <column name="nombre" value="CIUDAD DEL VATICANO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="372" />
+      <column name="nombre" value="REUNION" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="408" />
+      <column name="nombre" value="SAN PEDRO Y MIQUELON" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="454" />
+      <column name="nombre" value="ISLAS TURCAS Y CAICOS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="461" />
+      <column name="nombre" value="ISLAS VIRGENES BRITANICAS Y MONSERRAT" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="813" />
+      <column name="nombre" value="PITCAIRM" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="820" />
+      <column name="nombre" value="ISLAS MARIANAS DEL NORTE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="093" />
+      <column name="nombre" value="BOSNIA-HERZEGOVINA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="329" />
+      <column name="nombre" value="SANTA ELENA Y DEPENDENCIAS" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="005" />
+      <column name="nombre" value="ITALIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="046" />
+      <column name="nombre" value="MALTA (INCLUIDOS GOZO Y COMINO)" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="092" />
+      <column name="nombre" value="CROACIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="240" />
+      <column name="nombre" value="NIGER" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="310" />
+      <column name="nombre" value="GUINEA ECUATORIAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="474" />
+      <column name="nombre" value="ARUBA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="458" />
+      <column name="nombre" value="GUADALUPE" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="516" />
+      <column name="nombre" value="BOLIVIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="636" />
+      <column name="nombre" value="KUWAIT" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="680" />
+      <column name="nombre" value="TAILANDIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="803" />
+      <column name="nombre" value="NAURU" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="824" />
+      <column name="nombre" value="ISLAS MARSHALL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="094" />
+      <column name="nombre" value="SERBIA Y MONTENEGRO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="891" />
+      <column name="nombre" value="PALAU" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="892" />
+      <column name="nombre" value="SAHARA OCCIDENTAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="893" />
+      <column name="nombre" value="TIMOR ORIENTAL" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="894" />
+      <column name="nombre" value="UNIÓN SOVIÉTICA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="688" />
+      <column name="nombre" value="SERBIA" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="499" />
+      <column name="nombre" value="MONTENEGRO" />
+    </insert>
+
+    <insert tableName="pais">
+      <column name="id" value="970" />
+      <column name="nombre" value="PALESTINA" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>
