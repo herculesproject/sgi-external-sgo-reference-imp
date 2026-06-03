@@ -28,9 +28,11 @@ target/
 build/
 
 ### VS Code ###
-.devcontainer
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+.env*
+!.env.example

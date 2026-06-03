@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SgoApplication",
+      "request": "launch",
+      "mainClass": "org.crue.hercules.sgi.sgo.SgoApplication",
+      "projectName": "sgi-external-sgo-reference-imp",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
