@@ -10,4 +10,4 @@ COPY target/dependency/META-INF /app/META-INF
 COPY target/dependency/BOOT-INF/classes /app
 
 # Run the app
-ENTRYPOINT java -Duser.timezone=UTC -Djava.security.egd=file:/dev/./urandom -cp "app:app/lib/*" org.crue.hercules.sgi.sgo.SgoApplication
+ENTRYPOINT ["java", "-Duser.timezone=UTC", "-Djava.security.egd=file:/dev/./urandom", "-cp", "app:app/lib/*", "org.crue.hercules.sgi.sgo.SgoApplication"]
