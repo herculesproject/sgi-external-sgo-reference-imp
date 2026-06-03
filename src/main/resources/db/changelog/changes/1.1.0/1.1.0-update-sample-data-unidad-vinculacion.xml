@@ -1,0 +1,1153 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+  xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+                      http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd
+                      http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+  <!-- Tipología: Facultades (raíz activa, estructura plana) -->
+  <changeSet context="dev" author="master" id="1.1.0-sample-unidad-vinculacion-facultades">
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC" />
+      <column name="codigo" value="FAC" />
+      <column name="nombre" value="Facultades" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_BBAA" />
+      <column name="codigo" value="BBAA" />
+      <column name="nombre" value="Bellas Artes" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCBB" />
+      <column name="codigo" value="CCBB" />
+      <column name="nombre" value="Ciencias Biológicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCDO" />
+      <column name="codigo" value="CCDO" />
+      <column name="nombre" value="Ciencias de la Documentación" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCIN" />
+      <column name="codigo" value="CCIN" />
+      <column name="nombre" value="Ciencias de la Información" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCEE" />
+      <column name="codigo" value="CCEE" />
+      <column name="nombre" value="Ciencias Económicas y Empresariales" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCFIS" />
+      <column name="codigo" value="CCFIS" />
+      <column name="nombre" value="Ciencias Físicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCGEO" />
+      <column name="codigo" value="CCGEO" />
+      <column name="nombre" value="Ciencias Geológicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCMAT" />
+      <column name="codigo" value="CCMAT" />
+      <column name="nombre" value="Ciencias Matemáticas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCPS" />
+      <column name="codigo" value="CCPS" />
+      <column name="nombre" value="Ciencias Políticas y Sociología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CCQUI" />
+      <column name="codigo" value="CCQUI" />
+      <column name="nombre" value="Ciencias Químicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_CTUR" />
+      <column name="codigo" value="CTUR" />
+      <column name="nombre" value="Comercio y Turismo" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_DER" />
+      <column name="codigo" value="DER" />
+      <column name="nombre" value="Derecho" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_EDU" />
+      <column name="codigo" value="EDU" />
+      <column name="nombre" value="Educación-Centro Formación Profesor" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_ENF" />
+      <column name="codigo" value="ENF" />
+      <column name="nombre" value="Enfermería, Fisioterapia y Podología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_EEST" />
+      <column name="codigo" value="EEST" />
+      <column name="nombre" value="Estudios Estadísticos" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_FAR" />
+      <column name="codigo" value="FAR" />
+      <column name="nombre" value="Farmacia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_FIL" />
+      <column name="codigo" value="FIL" />
+      <column name="nombre" value="Filología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_FLS" />
+      <column name="codigo" value="FLS" />
+      <column name="nombre" value="Filosofía" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_GEH" />
+      <column name="codigo" value="GEH" />
+      <column name="nombre" value="Geografía e Historia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_INF" />
+      <column name="codigo" value="INF" />
+      <column name="nombre" value="Informática" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_MED" />
+      <column name="codigo" value="MED" />
+      <column name="nombre" value="Medicina" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_ODO" />
+      <column name="codigo" value="ODO" />
+      <column name="nombre" value="Odontología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_OPT" />
+      <column name="codigo" value="OPT" />
+      <column name="nombre" value="Óptica y Optometría" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_PSI" />
+      <column name="codigo" value="PSI" />
+      <column name="nombre" value="Psicología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_TSO" />
+      <column name="codigo" value="TSO" />
+      <column name="nombre" value="Trabajo Social" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="FAC_VET" />
+      <column name="codigo" value="VET" />
+      <column name="nombre" value="Veterinaria" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="FAC" />
+    </insert>
+  </changeSet>
+
+  <!-- Tipología: Departamentos (raíz activa, estructura plana) -->
+  <changeSet context="dev" author="master" id="1.1.0-sample-unidad-vinculacion-departamentos">
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP" />
+      <column name="codigo" value="DEP" />
+      <column name="nombre" value="Departamentos" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_AFC" />
+      <column name="codigo" value="AFC" />
+      <column name="nombre" value="Administración Financiera y Contabilidad" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_AGT" />
+      <column name="codigo" value="AGT" />
+      <column name="nombre" value="Álgebra, Geometría y Topología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_AEQ" />
+      <column name="codigo" value="AEQ" />
+      <column name="nombre" value="Análisis Económico y economía cuantitativa" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_AMA" />
+      <column name="codigo" value="AMA" />
+      <column name="nombre" value="Análisis Matemático y Matemática Aplicada" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ANE" />
+      <column name="codigo" value="ANE" />
+      <column name="nombre" value="Anatomía y Embriología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ASP" />
+      <column name="codigo" value="ASP" />
+      <column name="nombre" value="Antropología Social y Psicología Social" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ACA" />
+      <column name="codigo" value="ACA" />
+      <column name="nombre" value="Arquitectura de Computadores y Automática" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_BYD" />
+      <column name="codigo" value="BYD" />
+      <column name="nombre" value="Biblioteconomía y Documentación" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_BEE" />
+      <column name="codigo" value="BEE" />
+      <column name="nombre" value="Biodiversidad, Ecología y Evolución" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_BCL" />
+      <column name="codigo" value="BCL" />
+      <column name="nombre" value="Biología Celular" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_BBM" />
+      <column name="codigo" value="BBM" />
+      <column name="nombre" value="Bioquímica y Biología Molecular" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_CPA" />
+      <column name="codigo" value="CPA" />
+      <column name="nombre" value="Ciencia Política y de la Administración" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_CCA" />
+      <column name="codigo" value="CCA" />
+      <column name="nombre" value="Ciencias de la Comunicación Aplicada" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_CIR" />
+      <column name="codigo" value="CIR" />
+      <column name="nombre" value="Cirugía" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DAD" />
+      <column name="codigo" value="DAD" />
+      <column name="nombre" value="Derecho Administrativo" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DCI" />
+      <column name="codigo" value="DCI" />
+      <column name="nombre" value="Derecho Civil" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DCO" />
+      <column name="codigo" value="DCO" />
+      <column name="nombre" value="Derecho Constitucional" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DTS" />
+      <column name="codigo" value="DTS" />
+      <column name="nombre" value="Derecho del Trabajo y Seguridad Social" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DIE" />
+      <column name="codigo" value="DIE" />
+      <column name="nombre" value="Derecho Internacional, Eclesiástico y Filosofía del Derecho" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DMF" />
+      <column name="codigo" value="DMF" />
+      <column name="nombre" value="Derecho Mercantil, Financiero y Tributario" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DPP" />
+      <column name="codigo" value="DPP" />
+      <column name="nombre" value="Derecho Procesal y Derecho Penal" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DRH" />
+      <column name="codigo" value="DRH" />
+      <column name="nombre" value="Derecho Romano e Historia del Derecho" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DYG" />
+      <column name="codigo" value="DYG" />
+      <column name="nombre" value="Dibujo y Grabado" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DCE" />
+      <column name="codigo" value="DCE" />
+      <column name="nombre" value="Didáctica de Ciencias Experimentales, Sociales y Matemáticas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DLA" />
+      <column name="codigo" value="DLA" />
+      <column name="nombre" value="Didáctica de Lenguas, Artes y Educación Física" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_DIM" />
+      <column name="codigo" value="DIM" />
+      <column name="nombre" value="Diseño e Imagen" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EAE" />
+      <column name="codigo" value="EAE" />
+      <column name="nombre" value="Economía Aplicada, Estructura e Historia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EAP" />
+      <column name="codigo" value="EAP" />
+      <column name="nombre" value="Economía Aplicada, Pública y Política" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EFA" />
+      <column name="codigo" value="EFA" />
+      <column name="nombre" value="Economía Financiera, Actuarial y Estadística" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ENF" />
+      <column name="codigo" value="ENFER" />
+      <column name="nombre" value="Enfermería" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ESC" />
+      <column name="codigo" value="ESC" />
+      <column name="nombre" value="Escultura y Formación Artística" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ECO" />
+      <column name="codigo" value="ECO" />
+      <column name="nombre" value="Especialidades Clínicas Odontológicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EIO" />
+      <column name="codigo" value="EIO" />
+      <column name="nombre" value="Estadística e Investigación Operativa" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ECD" />
+      <column name="codigo" value="ECD" />
+      <column name="nombre" value="Estadística y Ciencia de los Datos" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EMF" />
+      <column name="codigo" value="EMF" />
+      <column name="nombre" value="Estructura de la Materia, Física Térmica y Electrónica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EED" />
+      <column name="codigo" value="EED" />
+      <column name="nombre" value="Estudios Educativos" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_EIN" />
+      <column name="codigo" value="EIN" />
+      <column name="nombre" value="Estudios Ingleses: Lingüística y Literatura" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ERF" />
+      <column name="codigo" value="ERF" />
+      <column name="nombre" value="Estudios Románicos, Franceses, Italianos y Traducción" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FGA" />
+      <column name="codigo" value="FGA" />
+      <column name="nombre" value="Farmacia Galénica y Tecnología Alimentaria" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FYT" />
+      <column name="codigo" value="FYT" />
+      <column name="nombre" value="Farmacología y Toxicología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FFB" />
+      <column name="codigo" value="FFB" />
+      <column name="nombre" value="Farmacología, Farmacognosia y Botánica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FAE" />
+      <column name="codigo" value="FAE" />
+      <column name="nombre" value="Filología Alemana y Filología Eslava" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FCL" />
+      <column name="codigo" value="FCL" />
+      <column name="nombre" value="Filología Clásica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FYS" />
+      <column name="codigo" value="FYS" />
+      <column name="nombre" value="Filosofía y Sociedad" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FTA" />
+      <column name="codigo" value="FTA" />
+      <column name="nombre" value="Física de la Tierra y Astrofísica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FMA" />
+      <column name="codigo" value="FMA" />
+      <column name="nombre" value="Física de Materiales" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FTE" />
+      <column name="codigo" value="FTE" />
+      <column name="nombre" value="Física Teórica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_FIS" />
+      <column name="codigo" value="FIS" />
+      <column name="nombre" value="Fisiología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_GFM" />
+      <column name="codigo" value="GFM" />
+      <column name="nombre" value="Genética, Fisiología y Microbiología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_GEP" />
+      <column name="codigo" value="GEP" />
+      <column name="nombre" value="Geodinámica, Estratigrafía y Paleontología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_GEO" />
+      <column name="codigo" value="GEO" />
+      <column name="nombre" value="Geografía" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_HAM" />
+      <column name="codigo" value="HAM" />
+      <column name="nombre" value="Historia de América y Medieval y Ciencias Historiográficas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_HAR" />
+      <column name="codigo" value="HAR" />
+      <column name="nombre" value="Historia del Arte" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_HMC" />
+      <column name="codigo" value="HMC" />
+      <column name="nombre" value="Historia Moderna e Historia Contemporánea" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_HTG" />
+      <column name="codigo" value="HTG" />
+      <column name="nombre" value="Historia, Teorías y Geografía Políticas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_ISI" />
+      <column name="codigo" value="ISI" />
+      <column name="nombre" value="Ingeniería del Software e Inteligencia Artificial" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_IQM" />
+      <column name="codigo" value="IQM" />
+      <column name="nombre" value="Ingeniería Química y de Materiales" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_IOO" />
+      <column name="codigo" value="IOO" />
+      <column name="nombre" value="Inmunología, Oftalmología y ORL" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_IPE" />
+      <column name="codigo" value="IPE" />
+      <column name="nombre" value="Investigación y Psicología en Educación" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_LET" />
+      <column name="codigo" value="LET" />
+      <column name="nombre" value="Lengua Española y Teoría Literaria" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_LEA" />
+      <column name="codigo" value="LEA" />
+      <column name="nombre" value="Lingüística, Estudios Árabes, Hebreos, Vascos y de Asia Oriental" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_LHB" />
+      <column name="codigo" value="LHB" />
+      <column name="nombre" value="Literaturas Hispánicas y Bibliografía" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_LFT" />
+      <column name="codigo" value="LFT" />
+      <column name="nombre" value="Lógica y Filosofía Teórica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MKT" />
+      <column name="codigo" value="MKT" />
+      <column name="nombre" value="Marketing" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MED" />
+      <column name="codigo" value="DMED" />
+      <column name="nombre" value="Medicina" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MLP" />
+      <column name="codigo" value="MLP" />
+      <column name="nombre" value="Medicina Legal, Psiquiatría y Patología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MCA" />
+      <column name="codigo" value="MCA" />
+      <column name="nombre" value="Medicina y Cirugía Animal" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MYP" />
+      <column name="codigo" value="MYP" />
+      <column name="nombre" value="Microbiología y Parasitología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MIN" />
+      <column name="codigo" value="MIN" />
+      <column name="nombre" value="Mineralogía y Petrología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_MUS" />
+      <column name="codigo" value="MUS" />
+      <column name="nombre" value="Musicología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_NCA" />
+      <column name="codigo" value="NCA" />
+      <column name="nombre" value="Nutrición y Ciencia de los Alimentos" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_OCP" />
+      <column name="codigo" value="OCP" />
+      <column name="nombre" value="Odontología Conservadora y Prótesis" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_OPT" />
+      <column name="codigo" value="DOPT" />
+      <column name="nombre" value="Óptica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_OYV" />
+      <column name="codigo" value="OYV" />
+      <column name="nombre" value="Optometría y Visión" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_OEM" />
+      <column name="codigo" value="OEM" />
+      <column name="nombre" value="Organización de Empresas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PCG" />
+      <column name="codigo" value="PCG" />
+      <column name="nombre" value="Periodismo y Comunicación Global" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PNM" />
+      <column name="codigo" value="PNM" />
+      <column name="nombre" value="Periodismo y Nuevos Medios" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PEP" />
+      <column name="codigo" value="PEP" />
+      <column name="nombre" value="Personalidad, Evaluación y Psicología Clínica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PCR" />
+      <column name="codigo" value="PCR" />
+      <column name="nombre" value="Pintura y Conservación-Restauración" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PHA" />
+      <column name="codigo" value="PHA" />
+      <column name="nombre" value="Prehistoria, Historia Antigua y Arqueología" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PAN" />
+      <column name="codigo" value="PAN" />
+      <column name="nombre" value="Producción Animal" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PMC" />
+      <column name="codigo" value="PMC" />
+      <column name="nombre" value="Psicobiología y Metodología en Ciencias del Comportamiento" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PEL" />
+      <column name="codigo" value="PEL" />
+      <column name="nombre" value="Psicología Experimental, Procesos Cognitivos y Logopedia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_PSD" />
+      <column name="codigo" value="PSD" />
+      <column name="nombre" value="Psicología Social, Trabajo y Diferencial" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_QAN" />
+      <column name="codigo" value="QAN" />
+      <column name="nombre" value="Química Analítica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_QCF" />
+      <column name="codigo" value="QCF" />
+      <column name="nombre" value="Química en Ciencias Farmacéuticas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_QFI" />
+      <column name="codigo" value="QFI" />
+      <column name="nombre" value="Química Física" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_QIN" />
+      <column name="codigo" value="QIN" />
+      <column name="nombre" value="Química Inorgánica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_QOR" />
+      <column name="codigo" value="QOR" />
+      <column name="nombre" value="Química Orgánica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_RRF" />
+      <column name="codigo" value="RRF" />
+      <column name="nombre" value="Radiología, Rehabilitación y Fisioterapia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_RIH" />
+      <column name="codigo" value="RIH" />
+      <column name="nombre" value="Relaciones Internacionales e Historia Global" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_SPM" />
+      <column name="codigo" value="SPM" />
+      <column name="nombre" value="Salud Pública y Materno-Infantil" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_SAN" />
+      <column name="codigo" value="SAN" />
+      <column name="nombre" value="Sanidad Animal" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_SIC" />
+      <column name="codigo" value="SIC" />
+      <column name="nombre" value="Sistemas Informáticos y Computación" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_SAP" />
+      <column name="codigo" value="SAP" />
+      <column name="nombre" value="Sociología Aplicada" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_SMT" />
+      <column name="codigo" value="SMT" />
+      <column name="nombre" value="Sociología: Metodología y Teoría" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_TAC" />
+      <column name="codigo" value="TAC" />
+      <column name="nombre" value="Teorías y Análisis de la Comunicación" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="DEP_TSS" />
+      <column name="codigo" value="TSS" />
+      <column name="nombre" value="Trabajo Social y Servicios Sociales" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="DEP" />
+    </insert>
+  </changeSet>
+
+  <!-- Tipología: Institutos (raíz inactiva) -->
+  <changeSet context="dev" author="master" id="1.1.0-sample-unidad-vinculacion-institutos">
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="IUI" />
+      <column name="codigo" value="IUI" />
+      <column name="nombre" value="Institutos" />
+      <column name="activo" valueBoolean="false" />
+      <column name="predecesor_id" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="IUI_IMI" />
+      <column name="codigo" value="IMI" />
+      <column name="nombre" value="Instituto de Matemática Interdisciplinar" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="IUI" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="IUI_IUCA" />
+      <column name="codigo" value="IUCA" />
+      <column name="nombre" value="Instituto Universitario de Ciencias Ambientales" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="IUI" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="IUI_IPARCOS" />
+      <column name="codigo" value="IPARCOS" />
+      <column name="nombre" value="Instituto de Física de Partículas y del Cosmos" />
+      <column name="activo" valueBoolean="false" />
+      <column name="predecesor_id" value="IUI" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="IUI_IDEIR" />
+      <column name="codigo" value="IDEIR" />
+      <column name="nombre" value="Instituto de Derecho Europeo e Integración Regional" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="IUI" />
+    </insert>
+  </changeSet>
+
+  <!-- Tipología: Organización Académica (jerarquía multinivel con hijos activos e inactivos) -->
+  <changeSet context="dev" author="master" id="1.1.0-sample-unidad-vinculacion-organizacion">
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG" />
+      <column name="codigo" value="ORG" />
+      <column name="nombre" value="Organización Académica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_EP" />
+      <column name="codigo" value="EP" />
+      <column name="nombre" value="Enseñanzas Propias" />
+      <column name="activo" valueBoolean="false" />
+      <column name="predecesor_id" value="ORG" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_EP_CEI" />
+      <column name="codigo" value="CEI" />
+      <column name="nombre" value="Centro de Estudios de Idiomas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_EP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_EP_CEE" />
+      <column name="codigo" value="CEE" />
+      <column name="nombre" value="Centro de Estudios Empresariales" />
+      <column name="activo" valueBoolean="false" />
+      <column name="predecesor_id" value="ORG_EP" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_EP_CEI_PLE" />
+      <column name="codigo" value="PLE" />
+      <column name="nombre" value="Programa de Lenguas Extranjeras" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_EP_CEI" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_AH" />
+      <column name="codigo" value="AH" />
+      <column name="nombre" value="Artes y Humanidades" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI" />
+      <column name="codigo" value="CI" />
+      <column name="nombre" value="Ciencias" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CS" />
+      <column name="codigo" value="CS" />
+      <column name="nombre" value="Ciencias de la Salud" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CSJ" />
+      <column name="codigo" value="CSJ" />
+      <column name="nombre" value="Ciencias Sociales y Jurídicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_IA" />
+      <column name="codigo" value="IA" />
+      <column name="nombre" value="Ingeniería y Arquitectura" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_AH_FFL" />
+      <column name="codigo" value="FFL" />
+      <column name="nombre" value="Facultad de Filosofía" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_AH" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_AH_FGH" />
+      <column name="codigo" value="FGH" />
+      <column name="nombre" value="Facultad de Geografía e Historia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_AH" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI_FCF" />
+      <column name="codigo" value="FCF" />
+      <column name="nombre" value="Facultad de Ciencias Físicas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CI" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI_FCM" />
+      <column name="codigo" value="FCM" />
+      <column name="nombre" value="Facultad de Ciencias Matemáticas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CI" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CS_FME" />
+      <column name="codigo" value="FME" />
+      <column name="nombre" value="Facultad de Medicina" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CS" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CS_FFA" />
+      <column name="codigo" value="FFA" />
+      <column name="nombre" value="Facultad de Farmacia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CS" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CSJ_FDE" />
+      <column name="codigo" value="FDE" />
+      <column name="nombre" value="Facultad de Derecho" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CSJ" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CSJ_FCE" />
+      <column name="codigo" value="FCE" />
+      <column name="nombre" value="Facultad de Ciencias Económicas y Empresariales" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CSJ" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_IA_FIN" />
+      <column name="codigo" value="FINF" />
+      <column name="nombre" value="Facultad de Informática" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_IA" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI_FCF_DFT" />
+      <column name="codigo" value="DFT" />
+      <column name="nombre" value="Departamento de Física Teórica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CI_FCF" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI_FCF_DEM" />
+      <column name="codigo" value="DEM" />
+      <column name="nombre" value="Departamento de Estructura de la Materia" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CI_FCF" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CS_FME_DME" />
+      <column name="codigo" value="DME" />
+      <column name="nombre" value="Departamento de Medicina" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CS_FME" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CS_FME_DCI" />
+      <column name="codigo" value="DCIR" />
+      <column name="nombre" value="Departamento de Cirugía" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CS_FME" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_IA_FIN_DIS" />
+      <column name="codigo" value="DIS" />
+      <column name="nombre" value="Departamento de Ingeniería del Software" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_IA_FIN" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_IA_FIN_DSI" />
+      <column name="codigo" value="DSI" />
+      <column name="nombre" value="Departamento de Sistemas Informáticos" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_IA_FIN" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI_FCF_DFT_GFP" />
+      <column name="codigo" value="GFP" />
+      <column name="nombre" value="Grupo de Física de Partículas" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CI_FCF_DFT" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CI_FCF_DFT_GCO" />
+      <column name="codigo" value="GCO" />
+      <column name="nombre" value="Grupo de Cosmología y Astrofísica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CI_FCF_DFT" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_IA_FIN_DIS_GIW" />
+      <column name="codigo" value="GIW" />
+      <column name="nombre" value="Grupo de Ingeniería Web" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_IA_FIN_DIS" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_IA_FIN_DIS_GIA" />
+      <column name="codigo" value="GIA" />
+      <column name="nombre" value="Grupo de Inteligencia Artificial Aplicada" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_IA_FIN_DIS" />
+    </insert>
+    <insert tableName="unidad_vinculacion">
+      <column name="id" value="ORG_CS_FME_DME_GOM" />
+      <column name="codigo" value="GOM" />
+      <column name="nombre" value="Grupo de Oncología Médica" />
+      <column name="activo" valueBoolean="true" />
+      <column name="predecesor_id" value="ORG_CS_FME_DME" />
+    </insert>
+  </changeSet>
+
+</databaseChangeLog>

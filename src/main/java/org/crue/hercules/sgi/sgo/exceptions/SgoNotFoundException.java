@@ -7,6 +7,7 @@ import org.crue.hercules.sgi.framework.spring.context.support.ApplicationContext
 /**
  * SgoNotFoundException
  */
+@SuppressWarnings("java:S110")
 public class SgoNotFoundException extends NotFoundException {
 
   private static final String PROBLEM_MESSAGE_PARAMETER_ENTITY = "entity";
