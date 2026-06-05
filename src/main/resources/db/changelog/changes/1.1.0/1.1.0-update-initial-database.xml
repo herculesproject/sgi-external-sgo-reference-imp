@@ -9,15 +9,15 @@
 
   <changeSet author="master" id="1.1.0-1">
     <createTable tableName="unidad_vinculacion">
-      <column name="id" type="VARCHAR(255)">
+      <column name="id" type="VARCHAR(50)">
         <constraints nullable="false" primaryKey="true" primaryKeyName="unidadVinculacionPK" />
       </column>
-      <column name="codigo" type="VARCHAR(255)" />
+      <column name="codigo" type="VARCHAR(50)" />
       <column name="nombre" type="VARCHAR(255)" />
       <column name="activo" type="BOOLEAN">
         <constraints nullable="false" />
       </column>
-      <column name="predecesor_id" type="VARCHAR(255)" />
+      <column name="predecesor_id" type="VARCHAR(50)" />
     </createTable>
   </changeSet>
 
