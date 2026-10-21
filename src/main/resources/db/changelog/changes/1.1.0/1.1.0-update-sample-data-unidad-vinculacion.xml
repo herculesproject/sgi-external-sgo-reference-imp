@@ -275,7 +275,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_BCL" />
       <column name="codigo" value="BCL" />
-      <column name="nombre" value="Biología Celular" />
+      <column name="nombre" value="Biología Celular." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -310,14 +310,14 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_DAD" />
       <column name="codigo" value="DAD" />
-      <column name="nombre" value="Derecho Administrativo" />
+      <column name="nombre" value="Derecho Administrativo." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_DCI" />
       <column name="codigo" value="DCI" />
-      <column name="nombre" value="Derecho Civil" />
+      <column name="nombre" value="Derecho Civil." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -415,7 +415,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_ENF" />
       <column name="codigo" value="ENFER" />
-      <column name="nombre" value="Enfermería" />
+      <column name="nombre" value="Enfermería." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -436,7 +436,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_EIO" />
       <column name="codigo" value="EIO" />
-      <column name="nombre" value="Estadística e Investigación Operativa" />
+      <column name="nombre" value="Estadística e Investigación Operativa." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -506,7 +506,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_FCL" />
       <column name="codigo" value="FCL" />
-      <column name="nombre" value="Filología Clásica" />
+      <column name="nombre" value="Filología Clásica." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -541,7 +541,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_FIS" />
       <column name="codigo" value="FIS" />
-      <column name="nombre" value="Fisiología" />
+      <column name="nombre" value="Fisiología." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -562,7 +562,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_GEO" />
       <column name="codigo" value="GEO" />
-      <column name="nombre" value="Geografía" />
+      <column name="nombre" value="Geografía." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -576,7 +576,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_HAR" />
       <column name="codigo" value="HAR" />
-      <column name="nombre" value="Historia del Arte" />
+      <column name="nombre" value="Historia del Arte." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -674,7 +674,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_MCA" />
       <column name="codigo" value="MCA" />
-      <column name="nombre" value="Medicina y Cirugía Animal" />
+      <column name="nombre" value="Medicina y Cirugía Animal." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -730,7 +730,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_OEM" />
       <column name="codigo" value="OEM" />
-      <column name="nombre" value="Organización de Empresas" />
+      <column name="nombre" value="Organización de Empresas." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -772,7 +772,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_PAN" />
       <column name="codigo" value="PAN" />
-      <column name="nombre" value="Producción Animal" />
+      <column name="nombre" value="Producción Animal." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -800,7 +800,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_QAN" />
       <column name="codigo" value="QAN" />
-      <column name="nombre" value="Química Analítica" />
+      <column name="nombre" value="Química Analítica." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -814,21 +814,21 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_QFI" />
       <column name="codigo" value="QFI" />
-      <column name="nombre" value="Química Física" />
+      <column name="nombre" value="Química Física." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_QIN" />
       <column name="codigo" value="QIN" />
-      <column name="nombre" value="Química Inorgánica" />
+      <column name="nombre" value="Química Inorgánica." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_QOR" />
       <column name="codigo" value="QOR" />
-      <column name="nombre" value="Química Orgánica" />
+      <column name="nombre" value="Química Orgánica." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -856,7 +856,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_SAN" />
       <column name="codigo" value="SAN" />
-      <column name="nombre" value="Sanidad Animal" />
+      <column name="nombre" value="Sanidad Animal." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -891,7 +891,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="DEP_TSS" />
       <column name="codigo" value="TSS" />
-      <column name="nombre" value="Trabajo Social y Servicios Sociales" />
+      <column name="nombre" value="Trabajo Social y Servicios Sociales." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1151,18 +1151,22 @@
   </changeSet>
 
   <!--
-    Las unidades deben tener el mismo id que el departamento para que el SGI pueda inicializar la unidad de vinculación
-    a partir del departamento de la persona. Las unidades de ejemplo anteriores se desactivan (no se borran, para no romper
+    Las unidades deben tener el mismo id que el departamento para que el SGI pueda inicializar la
+  unidad de vinculación
+    a partir del departamento de la persona. Las unidades de ejemplo anteriores se desactivan (no se
+  borran, para no romper
     las referencias que ya existan) y se añaden los departamentos de la tabla departamentos.
   -->
-  <changeSet context="dev" author="master" id="1.1.0-sample-unidad-vinculacion-departamentos-desactivar">
+  <changeSet context="dev" author="master"
+    id="1.1.0-sample-unidad-vinculacion-departamentos-desactivar">
     <update tableName="unidad_vinculacion">
       <column name="activo" valueBoolean="false" />
       <where>predecesor_id = 'DEP'</where>
     </update>
   </changeSet>
 
-  <changeSet context="dev" author="master" id="1.1.0-sample-unidad-vinculacion-departamentos-tabla-departamento">
+  <changeSet context="dev" author="master"
+    id="1.1.0-sample-unidad-vinculacion-departamentos-tabla-departamento">
     <insert tableName="unidad_vinculacion">
       <column name="id" value="U006" />
       <column name="codigo" value="U006" />
@@ -1677,7 +1681,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E972" />
       <column name="codigo" value="E972" />
-      <column name="nombre" value="CÁTEDRA ASTRADE DE AUTISMO Y TRASTORNOS GENERALIZADOS DEL DESARROLLO" />
+      <column name="nombre"
+        value="CÁTEDRA ASTRADE DE AUTISMO Y TRASTORNOS GENERALIZADOS DEL DESARROLLO" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1733,7 +1738,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E952" />
       <column name="codigo" value="E952" />
-      <column name="nombre" value="CÁTEDRA DE EMPRESA FAMILIAR MARE NOSTRUM U. MURCIA-U. POLITECNICA DE CARTAGENA" />
+      <column name="nombre"
+        value="CÁTEDRA DE EMPRESA FAMILIAR MARE NOSTRUM U. MURCIA-U. POLITECNICA DE CARTAGENA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1761,7 +1767,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E973" />
       <column name="codigo" value="E973" />
-      <column name="nombre" value="CÁTEDRA DE MEDIO AMBIENTE INTERUNIVERSITARIA AUTO. PORTUARIA CARTAGENA. CAMPUS MARE NOSTRUM" />
+      <column name="nombre"
+        value="CÁTEDRA DE MEDIO AMBIENTE INTERUNIVERSITARIA AUTO. PORTUARIA CARTAGENA. CAMPUS MARE NOSTRUM" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1796,7 +1803,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E978" />
       <column name="codigo" value="E978" />
-      <column name="nombre" value="CÁTEDRA FUNDACIÓN ASISA DE COMUNICACIÓN SANITARIA DE LA UNIVERSIDAD DE MURCIA" />
+      <column name="nombre"
+        value="CÁTEDRA FUNDACIÓN ASISA DE COMUNICACIÓN SANITARIA DE LA UNIVERSIDAD DE MURCIA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1824,7 +1832,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E962" />
       <column name="codigo" value="E962" />
-      <column name="nombre" value="CÁTEDRA SAES DE SOFTWARE LIBRE Y DE APLICACIONES CRÍTICAS Y EN TIEMPO REAL" />
+      <column name="nombre"
+        value="CÁTEDRA SAES DE SOFTWARE LIBRE Y DE APLICACIONES CRÍTICAS Y EN TIEMPO REAL" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1838,7 +1847,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E958" />
       <column name="codigo" value="E958" />
-      <column name="nombre" value="CÁTEDRA UM-SEMG-HEEL DE MEDICINA DE FAMILIA Y ACTITUDES SALUDABLES" />
+      <column name="nombre"
+        value="CÁTEDRA UM-SEMG-HEEL DE MEDICINA DE FAMILIA Y ACTITUDES SALUDABLES" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -1950,21 +1960,24 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="IU50" />
       <column name="codigo" value="IU50" />
-      <column name="nombre" value="CENTRO DE ESTUDIOS PARA EL DESARROLLO DE LA SUPERDOTACIÓN EL TALENTO Y LA EXCELENCIA (CEDETE)" />
+      <column name="nombre"
+        value="CENTRO DE ESTUDIOS PARA EL DESARROLLO DE LA SUPERDOTACIÓN EL TALENTO Y LA EXCELENCIA (CEDETE)" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="IU44" />
       <column name="codigo" value="IU44" />
-      <column name="nombre" value="CENTRO DE ESTUDIOS SOBRE DISCAPACIDAD Y PROMOCIÓN DE LA AUTONOMÍA PERSONAL (DIPAP)" />
+      <column name="nombre"
+        value="CENTRO DE ESTUDIOS SOBRE DISCAPACIDAD Y PROMOCIÓN DE LA AUTONOMÍA PERSONAL (DIPAP)" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="IU42" />
       <column name="codigo" value="IU42" />
-      <column name="nombre" value="CENTRO DE ESTUDIOS SOBRE LA MEMORIA EDUCATIVA DE LA UNIVERSIDAD DE MURCIA" />
+      <column name="nombre"
+        value="CENTRO DE ESTUDIOS SOBRE LA MEMORIA EDUCATIVA DE LA UNIVERSIDAD DE MURCIA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -2195,7 +2208,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E0C1" />
       <column name="codigo" value="E0C1" />
-      <column name="nombre" value="DIDÁCTICA DE LA LENGUA Y LA LITERATURA (ESPAÑOL, INGLÉS Y FRANCÉS)" />
+      <column name="nombre"
+        value="DIDÁCTICA DE LA LENGUA Y LA LITERATURA (ESPAÑOL, INGLÉS Y FRANCÉS)" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -2342,7 +2356,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="X804" />
       <column name="codigo" value="X804" />
-      <column name="nombre" value="ENTOMOLOGÍA FORENSE DEL SERV. EXTERNO DE CIENCIAS Y TÉCNICAS FORENSES" />
+      <column name="nombre"
+        value="ENTOMOLOGÍA FORENSE DEL SERV. EXTERNO DE CIENCIAS Y TÉCNICAS FORENSES" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -2755,7 +2770,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E0C5" />
       <column name="codigo" value="E0C5" />
-      <column name="nombre" value="HISTORIA MODERNA, CONTEMPORÁNEA, DE AMÉRICA Y DEL PENSAMIENTO Y MOV. SOCIALES Y POLÍTICOS" />
+      <column name="nombre"
+        value="HISTORIA MODERNA, CONTEMPORÁNEA, DE AMÉRICA Y DEL PENSAMIENTO Y MOV. SOCIALES Y POLÍTICOS" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -2797,7 +2813,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E031" />
       <column name="codigo" value="E031" />
-      <column name="nombre" value="INFORMATICA Y SISTEMAS" />
+      <column name="nombre" value="INFORMATICA Y SISTEMAS." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -2881,7 +2897,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="IU39" />
       <column name="codigo" value="IU39" />
-      <column name="nombre" value="INST. UNIV. EN INVEST. EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN ORIENTADAS" />
+      <column name="nombre"
+        value="INST. UNIV. EN INVEST. EN TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN ORIENTADAS" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -2993,7 +3010,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="0E94" />
       <column name="codigo" value="0E94" />
-      <column name="nombre" value="ISEN Centro Universitario, facultad adscrita a la Universidad de Murcia" />
+      <column name="nombre"
+        value="ISEN Centro Universitario, facultad adscrita a la Universidad de Murcia" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -3007,7 +3025,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E0A9" />
       <column name="codigo" value="E0A9" />
-      <column name="nombre" value="LENGUA ESPAÑOLA, LINGÜISTICA GENERAL Y TRADUCCIÓN E INTERPRETACIÓN" />
+      <column name="nombre"
+        value="LENGUA ESPAÑOLA, LINGÜISTICA GENERAL Y TRADUCCIÓN E INTERPRETACIÓN" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -3028,7 +3047,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E061" />
       <column name="codigo" value="E061" />
-      <column name="nombre" value="LITERATURA ESPAÑOLA, TEORÍA DE LA LITERATURA y  LITERATURA COMPARADA" />
+      <column name="nombre"
+        value="LITERATURA ESPAÑOLA, TEORÍA DE LA LITERATURA y  LITERATURA COMPARADA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -3182,7 +3202,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E561" />
       <column name="codigo" value="E561" />
-      <column name="nombre" value="OFICINA DE TRANSFERENCIA DE RESULTADOS DE LA INVESTIGACIÓN (OTRI)" />
+      <column name="nombre"
+        value="OFICINA DE TRANSFERENCIA DE RESULTADOS DE LA INVESTIGACIÓN (OTRI)" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -3203,7 +3224,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E0B8" />
       <column name="codigo" value="E0B8" />
-      <column name="nombre" value="OFTALMOLOGÍA, OPTOMETRÍA, OTORRINOLARINGOLOGÍA Y ANATOMÍA PATOLÓGICA" />
+      <column name="nombre"
+        value="OFTALMOLOGÍA, OPTOMETRÍA, OTORRINOLARINGOLOGÍA Y ANATOMÍA PATOLÓGICA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -3273,7 +3295,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E041" />
       <column name="codigo" value="E041" />
-      <column name="nombre" value="PREHISTORIA, ARQUEOLOGÍA, HISTORIA ANTIGUA, HISTORIA MEDIEVAL Y CIENCIAS  Y TECN. HISTORIOGRAFICAS" />
+      <column name="nombre"
+        value="PREHISTORIA, ARQUEOLOGÍA, HISTORIA ANTIGUA, HISTORIA MEDIEVAL Y CIENCIAS  Y TECN. HISTORIOGRAFICAS" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -3966,7 +3989,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E485" />
       <column name="codigo" value="E485" />
-      <column name="nombre" value="SECCIÓN DE COORDINACION DE EXTENSIÓN UNIV. Y RELAC.INTERNAC. E INSTITUC." />
+      <column name="nombre"
+        value="SECCIÓN DE COORDINACION DE EXTENSIÓN UNIV. Y RELAC.INTERNAC. E INSTITUC." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -4400,7 +4424,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E90D" />
       <column name="codigo" value="E90D" />
-      <column name="nombre" value="SECCIÓN DE RECURSOS HUMANOS DE LA INVESTIGACIÓN Y DEL PLAN PROPIO" />
+      <column name="nombre"
+        value="SECCIÓN DE RECURSOS HUMANOS DE LA INVESTIGACIÓN Y DEL PLAN PROPIO" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -4470,7 +4495,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E474" />
       <column name="codigo" value="E474" />
-      <column name="nombre" value="SECCION DE SOPORTE A USUARIOS" />
+      <column name="nombre" value="SECCION DE SOPORTE A USUARIOS." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5030,7 +5055,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="CE79" />
       <column name="codigo" value="CE79" />
-      <column name="nombre" value="SERV. GEN. EDIFICIO F. DE CIENCIAS DEL TRABAJO Y E.U. DE TRABAJO SOCIAL" />
+      <column name="nombre"
+        value="SERV. GEN. EDIFICIO F. DE CIENCIAS DEL TRABAJO Y E.U. DE TRABAJO SOCIAL" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5240,7 +5266,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E90E" />
       <column name="codigo" value="E90E" />
-      <column name="nombre" value="SERVICIO DE ASUNTOS ECONOMICOS Y CONTROL DE SUBVENCIONES DE LA INVESTIGACIÓN" />
+      <column name="nombre"
+        value="SERVICIO DE ASUNTOS ECONOMICOS Y CONTROL DE SUBVENCIONES DE LA INVESTIGACIÓN" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5394,7 +5421,7 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E479" />
       <column name="codigo" value="E479" />
-      <column name="nombre" value="SERVICIO DE GESTION DE LA INVESTIGACION" />
+      <column name="nombre" value="SERVICIO DE GESTION DE LA INVESTIGACION." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5415,7 +5442,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E42B" />
       <column name="codigo" value="E42B" />
-      <column name="nombre" value="SERVICIO DE GESTIÓN DEL PERSONAL DE ADM. Y SERV. Y DE PROYECTOS DE INVES." />
+      <column name="nombre"
+        value="SERVICIO DE GESTIÓN DEL PERSONAL DE ADM. Y SERV. Y DE PROYECTOS DE INVES." />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5611,7 +5639,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E956" />
       <column name="codigo" value="E956" />
-      <column name="nombre" value="SERVICIO EXTERNO DE CIENCIAS Y TÉCNICAS FORENSES DE LA UNIVERSIDAD DE MURCIA" />
+      <column name="nombre"
+        value="SERVICIO EXTERNO DE CIENCIAS Y TÉCNICAS FORENSES DE LA UNIVERSIDAD DE MURCIA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5744,7 +5773,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E338" />
       <column name="codigo" value="E338" />
-      <column name="nombre" value="UNIDAD ADMINISTRATIVA DE LA UNIDAD PARA LA IGUALDAD DE MUJ. y HOMBRES" />
+      <column name="nombre"
+        value="UNIDAD ADMINISTRATIVA DE LA UNIDAD PARA LA IGUALDAD DE MUJ. y HOMBRES" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -5954,7 +5984,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E361" />
       <column name="codigo" value="E361" />
-      <column name="nombre" value="VICERRECTORADO DE CIENCIAS DE LA SALUD Y SERVICIOS A LA COMUNIDAD UNIVERSITARIA" />
+      <column name="nombre"
+        value="VICERRECTORADO DE CIENCIAS DE LA SALUD Y SERVICIOS A LA COMUNIDAD UNIVERSITARIA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -6234,7 +6265,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E329" />
       <column name="codigo" value="E329" />
-      <column name="nombre" value="VICERRECTORADO DE RELACIONES INSTITUCIONALES Y DE CIENCIAS DE LA SALUD" />
+      <column name="nombre"
+        value="VICERRECTORADO DE RELACIONES INSTITUCIONALES Y DE CIENCIAS DE LA SALUD" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -6255,7 +6287,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E346" />
       <column name="codigo" value="E346" />
-      <column name="nombre" value="VICERRECTORADO DE RESPONSABILIDAD SOCIAL, TRANSPARENCIA E IGUALDAD" />
+      <column name="nombre"
+        value="VICERRECTORADO DE RESPONSABILIDAD SOCIAL, TRANSPARENCIA E IGUALDAD" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
@@ -6276,7 +6309,8 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="E365" />
       <column name="codigo" value="E365" />
-      <column name="nombre" value="VICERRECTORADO DE TRANSFERENCIA, COMUNICACIÓN Y DIVULGACIÓN CIENTÍFICA" />
+      <column name="nombre"
+        value="VICERRECTORADO DE TRANSFERENCIA, COMUNICACIÓN Y DIVULGACIÓN CIENTÍFICA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
