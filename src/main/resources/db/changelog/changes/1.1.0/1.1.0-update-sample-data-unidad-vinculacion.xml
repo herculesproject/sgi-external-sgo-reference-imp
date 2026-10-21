@@ -1166,21 +1166,21 @@
     <insert tableName="unidad_vinculacion">
       <column name="id" value="U006" />
       <column name="codigo" value="U006" />
-      <column name="nombre" value="* ADMIN.M. EDUCACION Y CIENCIA" />
+      <column name="nombre" value="ADMIN.M. EDUCACION Y CIENCIA" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="U011" />
       <column name="codigo" value="U011" />
-      <column name="nombre" value="** FAC.QUIMICAS Y MATEMATICAS" />
+      <column name="nombre" value="FAC.QUIMICAS Y MATEMATICAS" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
     <insert tableName="unidad_vinculacion">
       <column name="id" value="U430" />
       <column name="codigo" value="U430" />
-      <column name="nombre" value="** SECCION DE PERSONAL" />
+      <column name="nombre" value="SECCION DE PERSONAL" />
       <column name="activo" valueBoolean="true" />
       <column name="predecesor_id" value="DEP" />
     </insert>
